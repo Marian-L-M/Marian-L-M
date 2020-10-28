@@ -1,4 +1,6 @@
-### Hi there 👋
+### Hi there, this is my Portfolio Page 👋
+- 🔭 I’m currently working on getting my portfolio set up to present to recruiters.
+- 🌱 I’m currently learning Django.
 
 <!--
 **Marian-L-M/Marian-L-M** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
