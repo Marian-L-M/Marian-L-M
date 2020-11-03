@@ -2653,6 +2653,12 @@ input, select, textarea {
 		#language-bar #ger-icon{
 			grid-column: 2;
 		}
+		#language-bar #jap-icon{
+			grid-column: 3;
+		}
+		#language-bar #zh-icon{
+			grid-column: 4;
+		}
 
 /* Footer */
 
