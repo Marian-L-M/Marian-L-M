@@ -2594,18 +2594,18 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg2.jpg");
+		background-image: url("images/overlay.png"), url("../../images/bg3.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								600%;
+		background-size: auto, 160%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
-		padding: 8em 4em;
+		padding: 0em 0em;
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 15%;
+		width: 10%;
 	}
 
 		#header > * {
@@ -2640,8 +2640,8 @@ input, select, textarea {
 		}
 
 		#header .image.avatar {
-			margin: 0 0 1em 0;
-			width: 6.25em;
+			margin: 1em 2em 0 0em;
+			width: 6em;
 		}
 
 	#language-bar {
@@ -2696,10 +2696,36 @@ input, select, textarea {
 				color: inherit;
 			}
 
+/* option-header*/
+
+#option-header {
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-flex-direction: row;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-moz-align-items: -moz-flex-end;
+	-webkit-align-items: -webkit-flex-end;
+	-ms-align-items: -ms-flex-end;
+	align-items: flex-end;
+	-moz-justify-content: end;
+	-webkit-justify-content: end;
+	-ms-justify-content: end;
+	justify-content: end;
+	right: 3em;
+	position: fixed;
+	text-align: right;
+}
+
+
+
 /* Main */
 
 	#main {
-		margin-left: 35%;
+		margin-left: 25%;
 		max-width: 54em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
@@ -3014,8 +3040,8 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 6em 3em 3em 3em;
-				width: 30%;
+				padding: 1em 5em 3em 3em;
+				width: 10%;
 			}
 
 				#header h1 {
@@ -3029,6 +3055,15 @@ input, select, textarea {
 				#header > .inner {
 					margin-bottom: 0;
 				}
+
+				#header .image.avatar {
+					margin: 1em 10em 0 1%;
+					width: 5em;
+				}
+
+				/* #header > #language-bar{
+					margin-right: 0;
+				} */
 
 		/* Footer */
 
@@ -3072,6 +3107,7 @@ input, select, textarea {
 			#header {
 				background-attachment: scroll;
 				background-position: top left, center center;
+				background-image: url("images/overlay.png"), url("../../images/bg2.jpg");
 				background-size: auto,		cover;
 				left: auto;
 				padding: 6em 4em;
