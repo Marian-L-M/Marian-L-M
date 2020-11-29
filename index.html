@@ -3,10 +3,18 @@
 	Prologue by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+To do:
+Header
+1. Fix image
+
+Portfolio section
+1. Fix pop up
+2. Fix image size on small screen (too small, too far left)
 -->
 <html>
 	<head>
-		<title>Prologue by HTML5 UP</title>
+		<title>Marian Maschke</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -20,9 +28,9 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
-							<h1 id="title">Jane Doe</h1>
-							<p>Hyperspace Engineer</p>
+							<span class="image avatar48"><img src="images/avatar3.jpg" alt="" /></span>
+							<h1 id="title">Marian Maschke</h1>
+							<p>Web Developer/ Web Designer</p>
 						</div>
 
 					<!-- Nav -->
@@ -35,6 +43,38 @@
 							</ul>
 						</nav>
 
+				</div>
+
+				<div id="option-header">
+					<div id ="language-bar">
+						<!--Grid with 4 icons-->
+	<!--1. Add active marker
+	2. Fix mobile positioning-->
+						<img 
+							id="eng-icon"
+							src="views/images/english_icon.png" 
+							alt="ENG"
+							a href="views/languages/index.html"
+							>
+						<img 
+							id="ger-icon"
+							src="views/images/german_icon.png" 
+							alt="GER"
+							a href="views/languages/index_ger.html" 
+							>
+						<img 
+							id="jp-icon"
+							src="views/images/japanese_icon.png" 
+							alt="JAP"
+							a href="views/languages/index_jp.html" 
+							>
+						<img 
+							id="zh-icon"
+							src="views/images/chinese_icon.png" 
+							alt="ZH"
+							a href="views/languages/index_zh.html" 
+							>
+					</div>
 				</div>
 
 				<div class="bottom">
@@ -52,10 +92,8 @@
 
 			</div>
 
-		<!-- Main -->
-			<div id="main">
-
-				<!-- Intro -->
+		<!-- Banner -->
+		<div id="banner">
 					<section id="top" class="one dark cover">
 						<div class="container">
 
@@ -72,68 +110,14 @@
 
 						</div>
 					</section>
+		</div>
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
 
 				<!-- Portfolio -->
-					<section id="portfolio" class="two">
-						<div class="container">
-
-							<header>
-								<h2>Portfolio</h2>
-							</header>
-
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-							fusce hendrerit lacus ridiculus.</p>
-
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-										<header>
-											<h3>Ipsum Feugiat</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-										<header>
-											<h3>Rhoncus Semper</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-										<header>
-											<h3>Magna Nullam</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-										<header>
-											<h3>Natoque Vitae</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-										<header>
-											<h3>Dolor Penatibus</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-										<header>
-											<h3>Orci Convallis</h3>
-										</header>
-									</article>
-								</div>
-							</div>
-
-						</div>
-					</section>
-					<section id="portfolio_icons">
+					<section id="portfolio">
 						<h2>Recent Work</h2>
 						<div class="thumbs">
 							<article class="col-6 col-12-xsmall work-item">
@@ -235,6 +219,7 @@
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
