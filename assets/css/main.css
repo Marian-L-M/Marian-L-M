@@ -3690,7 +3690,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 375px;
+		width: 300px;
 	}
 
 		#header .top {
@@ -4367,6 +4367,7 @@ input, select, textarea {
 				padding: 0 2em 0 2em;
 			}
 
+
 		/* Item */
 
 			.item {
@@ -4379,6 +4380,7 @@ input, select, textarea {
 				width: 1.75em;
 				font-size: 1.25em;
 			}
+
 
 		/* Header */
 
@@ -4404,7 +4406,7 @@ input, select, textarea {
 				top: 0;
 				width: 275px;
 				z-index: 10002;
-				width: 275px;
+				width: 275px; /* Width of side bar for mobile*/
 				background: #222729 url("images/overlay.png");
 				box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.125);
 			}
@@ -4509,6 +4511,7 @@ input, select, textarea {
 				transform: translateX(0);
 			}
 
+
 		/* Footer */
 
 			#footer {
@@ -4529,15 +4532,36 @@ input, select, textarea {
 				padding-bottom: 1px;
 				margin-left: 0;
 			}
+			
+			#main > section {
+				padding: 3em 0;
+			}
+			
+			#main section.cover {
+				padding: 4em 0;
+			}
+		/* banner  */
 
-				#main > section {
-					padding: 3em 0;
-				}
-
-				#main section.cover {
-					padding: 4em 0;
-				}
-
+			#banner {
+				-moz-backface-visibility: hidden;
+				-webkit-backface-visibility: hidden;
+				-ms-backface-visibility: hidden;
+				backface-visibility: hidden;
+				-moz-transition: -moz-transform 0.5s ease;
+				-webkit-transition: -webkit-transform 0.5s ease;
+				-ms-transition: -ms-transform 0.5s ease;
+				transition: transform 0.5s ease;
+				padding-bottom: 1px;
+				margin-left: 0;
+			}
+			
+			#banner > section {
+				padding: 3em 0;
+			}
+			
+			#banner section.cover {
+				padding: 4em 0;
+			}
 	}
 
 /* Mobile */
