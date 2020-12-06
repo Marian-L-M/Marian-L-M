@@ -18,13 +18,19 @@ Services
 
 Sidebar
 1. Give toggle property to banner so that it shrinks with toggling
+
+Consider replacing image icons by css
+
 -->
+
+
 <html>
 	<head>
 		<title>Marian Maschke</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/flags.css" />
 	</head>
 	<body class="is-preload">
 
@@ -57,7 +63,9 @@ Sidebar
 					<div id ="language-bar">
 						<!--Grid with 4 icons-->
 	<!--1. Add active marker
-	2. Fix mobile positioning-->
+	2. Fix mobile positioning
+	3. a href is misplaced, needs to wrap around img-->
+
 						<img 
 							id="eng-icon"
 							src="views/images/english_icon.png" 
@@ -82,6 +90,15 @@ Sidebar
 							alt="ZH"
 							a href="views/languages/index_zh.html" 
 							>
+						<a href="views/languages/index_zh.html" id="lang_chinese" >
+							<div id="china" class="flag">
+								<div class="star star-main"></div>
+								<div class="star star-sub1"></div>
+								<div class="star star-sub2"></div>
+								<div class="star star-sub3"></div>
+								<div class="star star-sub4"></div>
+							</div>
+						</a>
 					</div>
 				</div>
 

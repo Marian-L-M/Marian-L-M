@@ -3372,7 +3372,7 @@ input, select, textarea {
 		}
 
 		.portfolio.thumb:hover:before {
-			background: url("images/bg2.jpg"), url("images/bg2.jpg");
+			background: url("images/overlay.png"), url("images/bg2.jpg");
 			opacity: 1.0;
 		}
 
@@ -3914,7 +3914,7 @@ input, select, textarea {
 		} 
 
 
-/*----------------------------------------*/
+/* Banner */
 #banner {
 	/* margin-left: 25%; */
 	/* max-width: 54em; */
