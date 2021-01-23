@@ -1,0 +1,93 @@
+/* Color Palette
+    Set.1 
+    Reference -> Deep Champagne: #F7CF9B
+    Turquoise: #00D9C0
+    Radical Red: #FF4365
+    Gray Web: #7A7D7D
+    Dark Liver: #565254
+
+    Set.2
+    Reference ->
+    Pale Silver: #c7c2c2;
+    Mindaro: #D6FF79
+    Mint Green: #B0FF92
+    English Violet: #5C415D
+    Rose Taupe: #8B575C
+*/
+
+html {
+  background-color: black;
+}
+
+h1 {
+  font-size: 4rem;
+  color: whitesmoke;
+  background-color: #8b575c;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: whitesmoke;
+  background-color: #5c415d;
+  margin-bottom: -20px;
+  z-index: 1000;
+}
+
+header {
+  background-color: #faf0fa;
+  /* border: 4px groove #8b575c; */
+}
+
+/* Header - Default */
+header .row {
+  height: 80vh;
+}
+
+.right-col,
+.left-col {
+  height: 100%;
+}
+
+.right-col h2 {
+  color: whitesmoke;
+  background-color: #5c415d;
+}
+
+.left-col img {
+  /* height: 100vh; */
+  height: 80%;
+  margin: 5vh 5vh 5vh 5vh;
+}
+
+#introduction p {
+  background-color: #faf0fa;
+}
+
+/* Portfolio section */
+
+#portfolio {
+  background: #b491b4;
+}
+
+.portfolio-item {
+  padding: 10px;
+}
+
+#portfolio h2 {
+  margin-left: 2%;
+}
+
+#portfolio h3,
+#portfolio p,
+#portfolio img {
+  margin-left: 2%;
+  border-radius: 1%;
+}
+
+#portfolio h3 {
+}
+
+#portfolio img {
+  width: 90%;
+  max-width: 1024px;
+}

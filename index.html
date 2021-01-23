@@ -14,6 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
     <link rel="stylesheet" href="./assets/css/bootstrap-grid.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
     <title>Marian Maschke</title>
   </head>
   <body>
@@ -25,56 +26,83 @@
         <li>contact</li>
       </ul>
     </nav>
-    <header>
+    <header class="row">
       <!--left column-->
-      <section id="introduction-img">
+      <section id="introduction-img" class="col left-col">
         <img src="./images/p1.jpg" alt="Portrait - Marian Maschke"/>
         <p>This is a painted face</p>
       </section>
       <!--right column-->
-      <section id="introduction">
-        <h1>Marian Maschke</h1>
+      <section id="introduction" class="col right-col">
+        <h1>I MAKE PRETTY WEBSITES</h1>
+        <h2>Marian Maschke</h2>
         <p>I am a self-taught web designer and developer based in Nagoya, Japan. 
-          Additionally, I also do photography, translation, and typewriting. Checkout my portfolio and skills here.
+          Additionally, I also do photography, translation, and copy-writing. Checkout my portfolio and skills here.
         </p>
       </section>
     </header>
-    <main>
+    <main class="container-fluid">
       <p>scroll down to find out more about myselfs</p>
       <!--Portfolio-->
+      <h2>Portfolio - Web Development & Web Design</h2>
       <section id="portfolio">
-
-        <h2>Portfolio</h2>
-        <!--first-->
-        <div>
-          <h4>Web Development & Web Design</h4>
-          <img src="./images/p2.jpg" alt="web development and web design" />
-          
-          <h3>Purple Feathers</h3>
-          <p>They are purple and feather shaped.<br />
-            There is  no such thing as purple feathers. <br />
-            Aren`t they a joy to look at?
-          </p>
-          <a href="https://eternityofmagic.com/">VISIT THE WEBSITE</a>
+        <div class="portfolio-item" id="p-first">
+          <!--first-->
+          <div class="row justify-content-md-center">
+            <div class="col-12 col-md-6" id="portfolio-img">
+              <h3>Clouds and Starships</h3>
+              <img src="./images/p2.jpg" alt="web development and web design" />
+            </div>
+            <div class="col-12 col-md-3">
+            <h4>Purple Feathers</h4>
+              <p>They are purple and feather shaped.<br />
+                There is  no such thing as purple feathers. <br />
+                Aren`t they a joy to look at?
+              </p>
+              <a href="https://eternityofmagic.com/">VISIT THE WEBSITE</a>
+            </div>
+            <div class="col-12 col-md-3">
+            <h4>Deployed technologies</h4>
+              <p>They are technologies for purple and feather shaped.<br />
+                There is  no such thing as technology for purple feathers. <br />
+                This i not even a proper Haiku.
+              </p>
+              <a href="https://eternityofmagic.com/">VISIT THE GITHUB</a>
+            </div>
+          </div>
         </div>
         
         <!--second-->
-        <div>
-          <h3>Mac Lovers</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis 
-            laudantium molestiae, totam expedita officiis itaque blanditiis iure omnis 
-            rerum quia accusamus nostrum possimus delectus doloremque velit at cumque, 
-            excepturi necessitatibus sequi suscipit repellendus ducimus ipsam quisquam. 
-            Ab, quam voluptate. Asperiores ad placeat quia, neque quisquam molestiae 
-            assumenda incidunt quaerat minima!
-          </p>
-          <a href="https://eternityofmagic.com/">VISIT THE SAME WEBSITE</a>
-          
-          <img src="./images/p4.jpg" alt="I love Big Macs" />
-        </div>  
+        <div class="portfolio-item" id="p-second">
+          <div class="row justify-content-md-center">
+            <div class="col-12 col-md-3">
+              <h4>What it's all about?</h4>
+              <p>Let`s find the best burger in Tokyo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis 
+                laudantium molestiae, totam expedita officiis itaque blanditiis iure omnis 
+                rerum quia accusamus nostrum possimus delectus doloremque velit at cumque, 
+                excepturi necessitatibus sequi suscipit repellendus ducimus ipsam quisquam. 
+                Ab, quam voluptate. Asperiores ad placeat quia, neque quisquam molestiae 
+                assumenda incidunt quaerat minima!
+              </p>
+              <a href="https://eternityofmagic.com/">VISIT THE SAME WEBSITE</a>
+            </div>
+            <div class="col-12 col-md-3">
+              <h4>Technologies</h4>
+              <p>They are technologies for purple and feather shaped.<br />
+                There is  no such thing as technology for purple feathers. <br />
+                This i not even a proper Haiku.
+              </p>
+              <a href="https://eternityofmagic.com/">VISIT THE GITHUB</a>
+            </div>
+            <div class="col-12 col-md-6">
+              <h3>Mac Lovers and Burger Bros</h3>
+              <img src="./images/p4.jpg" alt="I love Big Macs" />
+            </div>
+          </div> 
+        </div> 
         
         <!--third-->
-        <div>
+        <div　class="portfolio-item" id="p-third">
         </div>  
       </section>
       
@@ -144,7 +172,7 @@
     </main>
     <footer>
       <!--SNS ICONS HERE-->
-      <a href="https://github.com/Marian-L-M/"><i class="fab fa-github"></i></a>
+      <a href="https://github.com/Marian-L-M/"><i class="fas fa-github"></i></a>
      
     </footer>
   </body>
