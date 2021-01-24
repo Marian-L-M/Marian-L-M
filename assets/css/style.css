@@ -13,24 +13,49 @@
     Mint Green: #B0FF92
     English Violet: #5C415D
     Rose Taupe: #8B575C
+
+    Section colors:
+    portfolio: #B491B4
+    photography: #8B575C
+    Translation & creative writing: #B8B8FF
+    About me: #97F9F9
+    Contact: #FFED65
+
 */
 
 html {
-  background-color: black;
+  background-color: #161616;
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: whitesmoke;
   background-color: #8b575c;
+  padding: 10px 10px 10px 10px;
 }
 
 h2 {
+  position: absolute;
   font-size: 2.5rem;
   color: whitesmoke;
   background-color: #5c415d;
-  margin-bottom: -20px;
+  margin-top: 4px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin: 4px 4px 4px 4px;
+  padding: 4px 4px 4px 4px;
   z-index: 1000;
+}
+
+h2 .left-h2 {
+}
+
+h2 .right-h2 {
+}
+
+span {
+  font-weight: 900;
+  font-size: 1.2rem;
 }
 
 header {
@@ -38,9 +63,20 @@ header {
   /* border: 4px groove #8b575c; */
 }
 
+.col {
+  padding: 4px 4px 4px 4px;
+}
+
+section img {
+  width: 90%;
+  max-width: 1024px;
+  margin-left: 2%;
+  border-radius: 1%;
+}
+
 /* Header - Default */
 header .row {
-  height: 80vh;
+  height: 70vh;
 }
 
 .right-col,
@@ -55,8 +91,10 @@ header .row {
 
 .left-col img {
   /* height: 100vh; */
-  height: 80%;
-  margin: 5vh 5vh 5vh 5vh;
+  width: 100%;
+  left: 0;
+  /* margin: 5vh 5vh 5vh 5vh; */
+  border-radius: 1%;
 }
 
 #introduction p {
@@ -77,17 +115,26 @@ header .row {
   margin-left: 2%;
 }
 
-#portfolio h3,
-#portfolio p,
-#portfolio img {
-  margin-left: 2%;
-  border-radius: 1%;
+/* Photography section */
+
+#photography {
+  background: #8b575c;
 }
 
-#portfolio h3 {
+/* Translation Section */
+
+#translation {
+  background: #b8b8ff;
 }
 
-#portfolio img {
-  width: 90%;
-  max-width: 1024px;
+/* About Section */
+
+#about {
+  background: #97f9f9;
+}
+
+/* Contact Section */
+
+#contact {
+  background: #ffed65;
 }
