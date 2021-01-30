@@ -12,9 +12,9 @@
     />
     <meta name="author" content="Marian Louis Maschke" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
     <link rel="stylesheet" href="./assets/css/bootstrap-grid.css" type="text/css">
-    <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/789b413aa4.js" crossorigin="anonymous"></script>
     <title>Marian Maschke</title>
   </head>
   <body>
@@ -26,32 +26,37 @@
         <li>contact</li>
       </ul>
     </nav>
-    <header class="row">
-      <!--left column-->
-      <section id="introduction-img" class="col left-col">
+    <header>
+      <h1>I MAKE PRETTY WEBSITES</h1>
+      <section id="introduction">
+        <!--left column-->
         <h2>Marian Maschke</h2>
-        <img src="./images/p1.jpg" alt="Portrait - Marian Maschke"/>
-      </section>
+        <div class="row">
+          <div class="col left-col">
+            <img src="./images/p1.jpg" alt="Portrait - Marian Maschke"/>
+          </div>
+     
       <!--right column-->
-      <section id="introduction" class="col right-col">
-        <h1>I MAKE PRETTY WEBSITES</h1>
-        <p><span>I AM AN ALLROUNDER. </span>I am a self-taught web designer and developer based in Nagoya, Japan. 
-          Additionally, I also do photography, translation, and copy-writing. Checkout my portfolio and skills here.
-          <ul>
-            <li>Python/Django</li>
-            <li>Javascript/NodeJS/React</li>
-            <li>JAVASCRIPT LIBRARIES</li>
-            <li>HTML/CSS/Bootstrap</li>
-            <li>WEBHOSTING</li>
-            <li>Wordpress</li>
-          </ul>
-        </p>
+          <div class="col right-col">
+            <p><span>I AM AN ALLROUNDER. </span>I am a self-taught web designer and developer based in Nagoya, Japan. 
+              Additionally, I also do photography, translation, and copy-writing. Checkout my portfolio and skills here.
+              <ul>
+                <li>Python/Django</li>
+                <li>Javascript/NodeJS/React</li>
+                <li>JAVASCRIPT LIBRARIES</li>
+                <li>HTML/CSS/Bootstrap</li>
+                <li>WEBHOSTING</li>
+                <li>Wordpress</li>
+              </ul>
+            </p>
+          </div>
+        </div>
       </section>
     </header>
-    <main class="container-fluid">
+    <main>
       <!--Portfolio-->
       <h2>Portfolio - Web Development & Web Design</h2>
-      <section id="portfolio">
+      <section id="portfolio" class="container">
         <div class="portfolio-item" id="p-first">
           <!--first-->
           <div class="row justify-content-md-center">
@@ -113,7 +118,7 @@
       </section>
       
       <!--Photography-->
-      <section id="photography">
+      <section id="photography" class="container">
         <h2>Photography</h2>
         <div class="portfolio-item" id="p-second">
           <div class="row justify-content-md-center">
@@ -135,8 +140,8 @@
       </section>
       
       <!--Translation-->
-      <section id="translation">
-        <h2>Translation & Creative Writing</h2>
+      <section id="translation" class="container">
+        <h2 class="right-h2">Translation & Creative Writing</h2>
         <div class="row justify-content-md-center">
           <div class="col-12 col-md-6">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere tempora soluta 
@@ -146,14 +151,14 @@
             <a href="">SEE MY TRANSLATION PORTFOLIO</a>
           </div>
           <div class="col-12 col-md-6">
-            <img src="./images/p6.jpg" alt="I make words sound different" /> 
+            <img src="./images/p6.jpg" class="right-img" alt="I make words sound different" /> 
           </div>
         </div>
       </section>
       
       
       <!--About-->
-      <section id="about">
+      <section id="about" class="container">
         <h2>About me</h2>
         <div class="row justify-content-md-center">
           <div class="col-12 col-md-6"> 
@@ -178,25 +183,30 @@
       </section>
       
       <!--Contact Form-->
-      <section id="contact">
-        <h2>Contact</h2>
+      <section id="contact" class="container">
+        <h2 class="right-h2">Contact</h2>
         <div class="row justify-content-md-center">
           <div class="col-12 col-md-6"> 
-            <p>Write down contact info + form
-            </p>
-            
+            <p><span>Contact Me</span></p>
+            <p>Mail</p>  
+            <p>Python</p>  
+            <p>Area</p>  
+                         
             <a href="">SEE MY TRANSLATION PORTFOLIO</a>
           </div>
           <div class="col-12 col-md-6"> 
-            <img src="./images/p5.jpg" alt="Say the hellos" />
+            This will be a form
+            <img src="./images/p5.jpg" class="right-img" alt="Say the hellos" />
           </div>
         </div>
       </section>
     </main>
     <footer>
       <!--SNS ICONS HERE-->
-      <a href="https://github.com/Marian-L-M/"><i class="fas fa-github"></i></a>
-     
+      <div class="sns-icons">
+        <a href="https://github.com/Marian-L-M/"><i class="fab fa-github icon"></i></a>
+        <a href="https://linkedin.com/in/marian-maschke"><i class="fab fa-linkedin-in icon"></i></a>
+      </div>
     </footer>
   </body>
 </html>

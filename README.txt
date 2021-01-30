@@ -3,6 +3,9 @@
  2. Pixi.js for landing page
  3.Chart.js for charts?
  ４. Reveal for Photography
+ 5. https://github.com/nrgapple/historic-country-borders-app for EoM : Cool mapping tool
+ 5.1 geojson
+ 6. Google Analztics
 
  ##Assets used
  1. Bootstrap Grid
