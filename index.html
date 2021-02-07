@@ -18,48 +18,73 @@
     <title>Marian Maschke</title>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li>introduction</li>
-        <li>portfolio</li>
-        <li>about</li>
-        <li>contact</li>
-      </ul>
-    </nav>
     <header>
-      <h1>I MAKE PRETTY WEBSITES</h1>
+      <nav class="nav-btns">
+        <ul>
+          <a href="#introduction"><li>INTRODUCTION</li></a>
+          <a href="#portfolio"><li>PORTFOLIO</li></a>
+          <a href="#about"><li>ABOUT</li></a>
+          <a href="#contact"><li>CONTACT</li></a>
+          <li>LANGUAGES DROP DOWN</li>
+        </ul>
+      </nav>
+
+      <div class="menu-icon">
+        <i class="fas fa-bars"></i>
+      </div>
+      
+      <div class="close-icon">
+        <i class="fas fa-times"></i>
+      </div>
+
+      <nav class="mobile-nav">
+        <ul>
+          <a href="#introduction"><li>INTRODUCTION</li></a>
+          <a href="#portfolio"><li>PORTFOLIO</li></a>
+          <a href="#about"><li>ABOUT</li></a>
+          <a href="#contact"><li>CONTACT</li></a>
+          <li>LANGUAGES DROP DOWN</li>
+        </ul>
+      </nav>
+      <div id="landing">
+        <div>
+          <h1>I AM A DESIGNER OF PRETTY WEBSITES - EVENTUALLY</h1>
+        </div>
+        <a href="#contact"><button type="button" class="btn btn-primary" id="contact-btn">Contact Me</button></a>
+      </div>
       <section id="introduction">
         <!--left column-->
-        <h2>Marian Maschke</h2>
-        <div class="row">
-          <div class="col left-col">
-            <img src="./images/p1.jpg" alt="Portrait - Marian Maschke"/>
+        <div id="screen-left">
+          <div>
+            <img src="./images/p1.1.jpg" alt="Portrait - Marian Maschke"/>
+            <p>Placeholder for a self-portrait</p>
           </div>
-     
-      <!--right column-->
-          <div class="col right-col">
-            <p><span>I AM AN ALLROUNDER. </span>I am a self-taught web designer and developer based in Nagoya, Japan. 
-              Additionally, I also do photography, translation, and copy-writing. Checkout my portfolio and skills here.
-              <ul>
-                <li>Python/Django</li>
-                <li>Javascript/NodeJS/React</li>
-                <li>JAVASCRIPT LIBRARIES</li>
-                <li>HTML/CSS/Bootstrap</li>
-                <li>WEBHOSTING</li>
-                <li>Wordpress</li>
-              </ul>
-            </p>
-          </div>
+        </div>
+          
+        <!--right column-->
+        <div id="screen-right">
+          <h2>Marian Maschke</h2>
+          <p><span>I AM AN ALLROUND-Designer. </span>I am a self-taught web designer and developer based in Nagoya, Japan. 
+            Additionally, I also do photography, translation, and copy-writing. Checkout my portfolio and skills here.
+            <ul>
+              <li>Python/Django</li>
+              <li>Javascript/NodeJS/React</li>
+              <li>JAVASCRIPT LIBRARIES</li>
+              <li>HTML/CSS/Bootstrap</li>
+              <li>WEBHOSTING</li>
+              <li>Wordpress</li>
+            </ul>
+          </p>
         </div>
       </section>
     </header>
     <main>
       <!--Portfolio-->
-      <h2>Portfolio - Web Development & Web Design</h2>
-      <section id="portfolio" class="container">
+      <section id="portfolio" class="container small-img">
+        <h2>Portfolio - Web Development & Web Design</h2>
         <div class="portfolio-item" id="p-first">
           <!--first-->
-          <div class="row justify-content-md-center">
+          <div class="row justify-content-md-center no-gutters">
             <div class="col-12 col-md-6" id="portfolio-img">
               <h3>Clouds and Starships</h3>
               <img src="./images/p2.jpg" alt="web development and web design" />
@@ -85,7 +110,7 @@
         
         <!--second-->
         <div class="portfolio-item" id="p-second">
-          <div class="row justify-content-md-center">
+          <div class="row justify-content-md-center no-gutters">
             <div class="col-12 col-md-3">
               <h4>What it's all about?</h4>
               <p>Let`s find the best burger in Tokyo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis 
@@ -118,10 +143,10 @@
       </section>
       
       <!--Photography-->
-      <section id="photography" class="container">
+      <section id="photography" class="container small-img">
         <h2>Photography</h2>
         <div class="portfolio-item" id="p-second">
-          <div class="row justify-content-md-center">
+          <div class="row justify-content-md-center no-gutters">
             <div class="col-12 col-md-6">
               <div class="glider">
                 <img src="./images/p3.jpg" alt="I make pretty pictures" />
@@ -140,9 +165,9 @@
       </section>
       
       <!--Translation-->
-      <section id="translation" class="container">
+      <section id="translation" class="container small-img">
         <h2 class="right-h2">Translation & Creative Writing</h2>
-        <div class="row justify-content-md-center">
+        <div class="row justify-content-md-center no-gutters">
           <div class="col-12 col-md-6">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere tempora soluta 
               architecto veniam ullam alias porro maiores reiciendis necessitatibus molestias.
@@ -158,9 +183,9 @@
       
       
       <!--About-->
-      <section id="about" class="container">
+      <section id="about" class="container small-img">
         <h2>About me</h2>
-        <div class="row justify-content-md-center">
+        <div class="row justify-content-md-center no-gutters">
           <div class="col-12 col-md-6"> 
             <img src="./images/p7.jpg" alt="I make words sound different" />      
           </div>
@@ -183,9 +208,9 @@
       </section>
       
       <!--Contact Form-->
-      <section id="contact" class="container">
-        <h2 class="right-h2">Contact</h2>
-        <div class="row justify-content-md-center">
+      <section id="contact" class="container small-img">
+        <h2>Contact</h2>
+        <div class="row justify-content-md-center no-gutters">
           <div class="col-12 col-md-6"> 
             <p><span>Contact Me</span></p>
             <p>Mail</p>  
@@ -207,6 +232,7 @@
         <a href="https://github.com/Marian-L-M/"><i class="fab fa-github icon"></i></a>
         <a href="https://linkedin.com/in/marian-maschke"><i class="fab fa-linkedin-in icon"></i></a>
       </div>
+      <div id="subtitle">Designed and developed by Marian Maschke</div>
     </footer>
   </body>
 </html>

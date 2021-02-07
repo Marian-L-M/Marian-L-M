@@ -19,3 +19,4 @@
  P5 : phone-612061_1920.jpg by Laety79 https://pixabay.com/photos/phone-contact-recruitment-612061/
  P6 : forget-me-not-257176_1920.jpg by cocoparisienne https://pixabay.com/photos/forget-me-not-hoverfly-fly-bloom-257176/
  P7 : coffee-cup-2317201_1920 by Myriams-Fotos https://pixabay.com/photos/coffee-cup-coffee-cup-coffee-beans-2317201/
+ P8: Black and white portrait by Free-Photos https://pixabay.com/photos/man-portrait-black-and-white-1209947/#

@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Big+Shoulders+Display:wght@300;400;500&family=Lobster&display=swap");
+/* Fonts 
+Css rules:
+font-family: 'Bebas Neue', cursive; -> (Regular 400)
+font-family: 'Big Shoulders Display', cursive; -> (Light 300, Regular 400, Medium 500)
+font-family: 'Lobster', cursive; ->  (Regular)
+*/
+
 /* Color Palette
     Set.1 
     Reference -> Deep Champagne: #F7CF9B
@@ -23,41 +31,32 @@
 
 */
 
-html {
-  background-color: #161616;
+/* Mobile First!*/
+
+* {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: whitesmoke;
 }
 
-h1 {
-  font-size: 3.5rem;
-  color: whitesmoke;
-  background-color: #8b575c;
-  padding: 10px 10px 10px 10px;
+html {
+  background-color: black;
+  scroll-behavior: smooth;
 }
 
 h2 {
-  position: absolute;
-  font-size: 2.5rem;
+  position: relative;
+  font-family: "Lobster", cursive;
+  font-size: 1.5rem;
   color: whitesmoke;
   background-color: #5c415d;
   margin: 4px 4px 4px 4px;
   padding: 4px 4px 4px 4px;
-  z-index: 1000;
-}
-
-.container {
-  width: 70%;
-  max-width: 2058px;
-}
-
-.right-h2 {
-  right: 20px;
-  z-index: 1000;
-}
-
-.right-img {
-  /* position: absolute;
-  right: 10px; */
-  z-index: 0;
+  z-index: 100;
+  width: 80%;
+  margin-left: 0;
+  border-radius: 2%;
 }
 
 span {
@@ -65,98 +64,152 @@ span {
   font-size: 1.2rem;
 }
 
-header {
-  background-color: #faf0fa;
-  /* border: 4px groove #8b575c; */
+ul {
+  list-style-type: none;
 }
 
-.col {
-  padding: 4px 4px 4px 4px;
+/* General */
+.container {
+  width: 80%;
 }
+
 section {
-  margin-bottom: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  margin-top: 50px;
   /* height: 40vh; */
+  background: #161616;
+  border-radius: 2%;
+  padding: 10px;
 }
 
 section img {
-  width: 90%;
-  max-width: 800px;
-  margin-left: 2%;
-  border-radius: 1%;
+  width: 100%;
 }
 
-/* Header - Default */
-header .row {
-  height: 70vh;
+/* section img {
+  margin-left: 2%;
+  border-radius: 1%;
+} */
+
+/* Header */
+header {
+  display: block;
+  background-color: black;
+  top: 0;
+  z-index: 0;
+  /* border: 4px groove #8b575c; */
+}
+
+/* Landing */
+#landing {
+  margin: 0;
+  right: 0;
+  left: 0;
+  top: 6vh;
+  z-index: 100;
+  display: block;
+  height: 100vh;
+  background-image: url("../../images/p1.1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  display: block;
+  font-size: 2.5rem;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 900;
+  text-align: center;
+  color: whitesmoke;
+  background-color: #8b575c;
+  margin-top: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+#contact-btn {
+  position: relative;
+  display: block;
+  width: 40%;
+  height: 10%;
+  left: 30%;
+  top: 70%;
+  z-index: 1000;
+  color: whitesmoke;
+  background-color: #8b575c;
+  border: whitesmoke solid 2px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#landing a:link {
+  text-decoration: none;
+}
+
+#landing a:hover,
+#contact-btn:hover {
+  color: #161616;
+  background-color: #a87b80;
+}
+
+body {
+  margin: 0 0 0 0;
+}
+
+/* Nav */
+.nav-btns,
+.mobile-nav,
+.close-icon,
+#screen-left {
+  display: none;
+}
+
+.menu-icon {
+  position: fixed;
+  display: flex;
+  top: 2vh;
+  right: 2vh;
+  background-color: #313030;
+  opacity: 70%;
+  padding: 1vw 1.3vw 1vw 1vw;
+  border-radius: 20%;
+  z-index: 2000;
+}
+
+.menu-icon i {
+  font-size: 1.5rem;
+  color: #c7c2c2;
 }
 
 .right-col,
 .left-col {
-  height: 100%;
+  background-color: #161616;
 }
 
-.right-col h2 {
-  color: whitesmoke;
-  background-color: #5c415d;
+.right-col {
+  text-align: center;
 }
+
 /* Intro section */
-#introduction {
-  height: 100vh;
-}
-
-#introduction p {
-  background-color: #faf0fa;
-}
 
 /* Portfolio section */
-
-#portfolio {
-  background: #b491b4;
-}
-
-.portfolio-item {
-  padding: 10px;
-}
-
 #portfolio h2 {
   margin-left: 2%;
 }
 
-/* Photography section */
-
-#photography {
-  background: #8b575c;
-}
-
-/* Translation Section */
-
-#translation {
-  background: #b8b8ff;
-}
-
-/* About Section */
-
-#about {
-  background: #97f9f9;
-}
-
-/* Contact Section */
-
-#contact {
-  background: #ffed65;
-}
-
 /* Footer */
-
 footer {
-  background-color: black;
-  width: 100%;
-  min-height: 10vh;
+  background-color: #161616;
+  margin-top: 1vh;
+  padding-bottom: 1vh;
 }
 
 .sns-icons {
   display: flex;
-
   align-content: center;
   justify-content: center;
 }
@@ -171,4 +224,126 @@ footer .icon {
 footer .icon:hover {
   color: #00d9c0;
   transition: 0.5s;
+}
+
+#subtitle {
+  font-size: 1rem;
+  color: whitesmoke;
+  margin-top: 1%;
+  text-align: center;
+}
+
+/* Smartphone wide*/
+@media only screen and (min-width: 601px) {
+}
+
+/* Tablet screens*/
+@media only screen and (max-width: 1000px) {
+}
+
+/* HD screens*/
+@media only screen and (min-width: 1001px) {
+  /* General */
+  h1 {
+    margin-top: 6vh;
+    padding: 40px 0 10px 0;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  /* Nav */
+  .nav-btns {
+    display: unset;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 2000;
+    background-color: black;
+  }
+
+  .nav-btns {
+    text-align: center;
+    /* margin-top: 1vh; */
+  }
+
+  .nav-btns li {
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-right: 5%;
+    color: antiquewhite;
+    border: antiquewhite solid 2px;
+    padding: 5px 5px 5px 5px;
+  }
+
+  .nav-btns li:hover {
+    color: #00d9c0;
+    transition: 0.5s;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  /* Header*/
+
+  /* Landing */
+
+  #landing {
+    top: 6vh;
+  }
+
+  /* Body */
+  body {
+    margin: 0 0 0 0;
+  }
+
+  .container {
+    width: 90%;
+    max-width: 2058px;
+  }
+
+  .right-h2 {
+    right: 20px;
+    z-index: 1000;
+  }
+
+  .right-img {
+    z-index: 0;
+  }
+
+  .right-col,
+  .left-col {
+    height: 100%;
+  }
+
+  .left-col {
+    padding-left: 20px;
+  }
+
+  /* Intro section */
+  #introduction {
+    height: 95vh;
+    margin-top: 5vh;
+  }
+
+  #introduction img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .small-img img {
+    width: 90%;
+  }
+
+  /* Footer */
+  footer {
+    width: 100%;
+    min-height: 2vh;
+  }
+}
+
+/* UHD screens */
+@media only screen and (min-width: 2559px) {
 }
