@@ -9,7 +9,7 @@
 
 # Editing
 ## 1. Temporary disable sections
-** Labelling icons as temporary disabled/in preparation **
+**Labelling icons as temporary disabled/in preparation**
 ```HTML
               <div class="in-preparation">
                 <i>LABEL TEXT</i>
