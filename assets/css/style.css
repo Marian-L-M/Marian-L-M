@@ -209,6 +209,18 @@ body {
   text-align: center;
 }
 /* Section General */
+section h3,
+section h4,
+section a {
+  padding-left: 20px;
+}
+
+section p {
+  padding: 0px 10px 10px 20px;
+  font-size: 1rem;
+}
+
+
 .in-preparation {
   display: flex;
   /* background-color: #d9cb00; */
