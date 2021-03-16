@@ -7,20 +7,21 @@
  5.1 geojson
  6. Google Analztics
 
-# Editing------------------------------------------------------
-## 1. Temporary disable
-** Labelling icons as temporary disabled/in preparation
+# Editing
+## 1. Temporary disable sections
+** Labelling icons as temporary disabled/in preparation **
 ```HTML
               <div class="in-preparation">
                 <i>LABEL TEXT</i>
                 <img src=""/>
               </div>
 ```
+A yellow label will be posted diagonally on the img and the img will be blurred.
 
- ##Assets used
+ ## Assets used
  1. Bootstrap Grid
 
- ##Images used------------------------------------------------------
+ ## Images used
 1.Pixabay
  P1 : girl-2696947_1280.jpg by ivanovgood https://pixabay.com/photos/girl-face-colorful-colors-artistic-2696947/
  P2 : feather-4431599_1280.jpg by Yuri_B https://pixabay.com/photos/feather-pattern-texture-form-4431599/
