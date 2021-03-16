@@ -7,6 +7,16 @@
  5.1 geojson
  6. Google Analztics
 
+# Editing------------------------------------------------------
+## 1. Temporary disable
+** Labelling icons as temporary disabled/in preparation
+```HTML
+              <div class="in-preparation">
+                <i>LABEL TEXT</i>
+                <img src=""/>
+              </div>
+```
+
  ##Assets used
  1. Bootstrap Grid
 

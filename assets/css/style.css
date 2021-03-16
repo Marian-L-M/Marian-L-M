@@ -208,6 +208,37 @@ body {
 .right-col {
   text-align: center;
 }
+/* Section General */
+.in-preparation {
+  display: flex;
+  /* background-color: #d9cb00; */
+}
+
+.in-preparation > i {
+  position: absolute;
+  justify-content: center;
+  z-index: 100;
+  transform: rotate(-28deg);
+  -ms-transform: rotate(-28deg);
+  -webkit-transform: rotate(-28deg);
+  color: #161616;
+  font-size: 2rem;
+  font-weight: 1000;
+  background-color: #d9cb00;
+  text-align: center;
+  margin-top: 25%;
+  margin-left: 8%;
+  width: 80%;
+  height: 20%;
+  max-height: 50px;
+  border-radius: 2%;
+}
+
+.in-preparation > img{
+  z-index: 99;
+  filter: blur(4px);
+  /* background: linear-gradient(0deg, #0c013d88 50%, #ffffff44 100%); */
+  }
 
 /* Intro section */
 
@@ -316,7 +347,7 @@ footer .icon:hover {
 
   .container {
     width: 90%;
-    max-width: 2058px;
+    max-width: 1560px;
   }
 
   .right-h2 {
@@ -360,5 +391,6 @@ footer .icon:hover {
 }
 
 /* UHD screens */
-@media only screen and (min-width: 2559px) {
+@media screen and (min-width: 2559px) {
+
 }
