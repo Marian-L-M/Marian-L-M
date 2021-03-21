@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 7410 3900" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g transform="matrix(123.665,0,0,129.692,3702.43,1939.26)">
+        <g transform="matrix(1,0,0,1,-30,-15)">
+            <g>
+                <clipPath id="_clip1">
+                    <rect x="0" y="0" width="60" height="30"/>
+                </clipPath>
+                <g clip-path="url(#_clip1)">
+                    <rect x="0" y="0" width="60" height="30" style="fill:rgb(1,33,105);fill-rule:nonzero;"/>
+                    <path d="M0,0L60,30M60,0L0,30" style="fill-rule:nonzero;stroke:white;stroke-width:6px;"/>
+                    <clipPath id="_clip2">
+                        <path d="M30,15L60,15L60,30L30,15ZM30,15L30,30L0,30L30,15ZM30,15L0,15L0,0L30,15ZM30,15L30,0L60,0L30,15Z"/>
+                    </clipPath>
+                    <g clip-path="url(#_clip2)">
+                        <path d="M0,0L60,30M60,0L0,30" style="fill-rule:nonzero;stroke:rgb(200,16,46);stroke-width:4px;"/>
+                    </g>
+                    <path d="M30,0L30,30M0,15L60,15" style="fill-rule:nonzero;stroke:white;stroke-width:10px;"/>
+                    <path d="M30,0L30,30M0,15L60,15" style="fill-rule:nonzero;stroke:rgb(200,16,46);stroke-width:6px;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(2.51061,-0.00260319,-0.00177776,-1.71453,-5.51511,3902.78)">
+        <path d="M3.969,4.717L2952.21,2275.6L3.969,2275.6L3.969,4.717Z" style="fill:rgb(235,235,235);"/>
+        <clipPath id="_clip3">
+            <path d="M3.969,4.717L2952.21,2275.6L3.969,2275.6L3.969,4.717Z"/>
+        </clipPath>
+        <g clip-path="url(#_clip3)">
+            <g id="US-Flag" serif:id="US Flag" transform="matrix(0.398309,-0.000604757,-0.000412997,-0.583249,3.80856,2276.29)">
+                <rect x="0" y="0" width="7410" height="3900" style="fill:rgb(178,34,52);fill-rule:nonzero;"/>
+                <path d="M0,450L7410,450M7410,1050L0,1050M0,1650L7410,1650M7410,2250L0,2250M0,2850L7410,2850M7410,3450L0,3450" style="fill-rule:nonzero;stroke:white;stroke-width:300px;"/>
+                <rect x="0" y="0" width="2964" height="2100" style="fill:rgb(60,59,110);fill-rule:nonzero;"/>
+                <g>
+                    <g id="d">
+                        <g id="c">
+                            <g id="e">
+                                <g id="b">
+                                    <path id="a" d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                    <g id="a1" serif:id="a" transform="matrix(1,0,0,1,0,420)">
+                                        <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                    </g>
+                                    <g id="a2" serif:id="a" transform="matrix(1,0,0,1,0,840)">
+                                        <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                    </g>
+                                    <g id="a3" serif:id="a" transform="matrix(1,0,0,1,0,1260)">
+                                        <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                    </g>
+                                </g>
+                                <g id="a4" serif:id="a" transform="matrix(1,0,0,1,0,1680)">
+                                    <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                </g>
+                            </g>
+                            <g id="b1" serif:id="b" transform="matrix(1,0,0,1,247,210)">
+                                <path id="a5" serif:id="a" d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                <g id="a6" serif:id="a" transform="matrix(1,0,0,1,0,420)">
+                                    <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                </g>
+                                <g id="a7" serif:id="a" transform="matrix(1,0,0,1,0,840)">
+                                    <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                </g>
+                                <g id="a8" serif:id="a" transform="matrix(1,0,0,1,0,1260)">
+                                    <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="c1" serif:id="c" transform="matrix(1,0,0,1,494,0)">
+                            <g id="e1" serif:id="e">
+                                <g id="b2" serif:id="b">
+                                    <path id="a9" serif:id="a" d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                    <g id="a10" serif:id="a" transform="matrix(1,0,0,1,0,420)">
+                                        <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                    </g>
+                                    <g id="a11" serif:id="a" transform="matrix(1,0,0,1,0,840)">
+                                        <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                    </g>
+                                    <g id="a12" serif:id="a" transform="matrix(1,0,0,1,0,1260)">
+                                        <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                    </g>
+                                </g>
+                                <g id="a13" serif:id="a" transform="matrix(1,0,0,1,0,1680)">
+                                    <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                </g>
+                            </g>
+                            <g id="b3" serif:id="b" transform="matrix(1,0,0,1,247,210)">
+                                <path id="a14" serif:id="a" d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                <g id="a15" serif:id="a" transform="matrix(1,0,0,1,0,420)">
+                                    <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                </g>
+                                <g id="a16" serif:id="a" transform="matrix(1,0,0,1,0,840)">
+                                    <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                </g>
+                                <g id="a17" serif:id="a" transform="matrix(1,0,0,1,0,1260)">
+                                    <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="d1" serif:id="d" transform="matrix(1,0,0,1,988,0)">
+                        <g id="c2" serif:id="c">
+                            <g id="e2" serif:id="e">
+                                <g id="b4" serif:id="b">
+                                    <path id="a18" serif:id="a" d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                    <g id="a19" serif:id="a" transform="matrix(1,0,0,1,0,420)">
+                                        <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                    </g>
+                                    <g id="a20" serif:id="a" transform="matrix(1,0,0,1,0,840)">
+                                        <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                    </g>
+                                    <g id="a21" serif:id="a" transform="matrix(1,0,0,1,0,1260)">
+                                        <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                    </g>
+                                </g>
+                                <g id="a22" serif:id="a" transform="matrix(1,0,0,1,0,1680)">
+                                    <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                </g>
+                            </g>
+                            <g id="b5" serif:id="b" transform="matrix(1,0,0,1,247,210)">
+                                <path id="a23" serif:id="a" d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                <g id="a24" serif:id="a" transform="matrix(1,0,0,1,0,420)">
+                                    <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                </g>
+                                <g id="a25" serif:id="a" transform="matrix(1,0,0,1,0,840)">
+                                    <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                </g>
+                                <g id="a26" serif:id="a" transform="matrix(1,0,0,1,0,1260)">
+                                    <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="c3" serif:id="c" transform="matrix(1,0,0,1,494,0)">
+                            <g id="e3" serif:id="e">
+                                <g id="b6" serif:id="b">
+                                    <path id="a27" serif:id="a" d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                    <g id="a28" serif:id="a" transform="matrix(1,0,0,1,0,420)">
+                                        <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                    </g>
+                                    <g id="a29" serif:id="a" transform="matrix(1,0,0,1,0,840)">
+                                        <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                    </g>
+                                    <g id="a30" serif:id="a" transform="matrix(1,0,0,1,0,1260)">
+                                        <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                    </g>
+                                </g>
+                                <g id="a31" serif:id="a" transform="matrix(1,0,0,1,0,1680)">
+                                    <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                </g>
+                            </g>
+                            <g id="b7" serif:id="b" transform="matrix(1,0,0,1,247,210)">
+                                <path id="a32" serif:id="a" d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                <g id="a33" serif:id="a" transform="matrix(1,0,0,1,0,420)">
+                                    <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                </g>
+                                <g id="a34" serif:id="a" transform="matrix(1,0,0,1,0,840)">
+                                    <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                </g>
+                                <g id="a35" serif:id="a" transform="matrix(1,0,0,1,0,1260)">
+                                    <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="c4" serif:id="c" transform="matrix(1,0,0,1,1976,0)">
+                        <g id="e4" serif:id="e">
+                            <g id="b8" serif:id="b">
+                                <path id="a36" serif:id="a" d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                <g id="a37" serif:id="a" transform="matrix(1,0,0,1,0,420)">
+                                    <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                </g>
+                                <g id="a38" serif:id="a" transform="matrix(1,0,0,1,0,840)">
+                                    <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                </g>
+                                <g id="a39" serif:id="a" transform="matrix(1,0,0,1,0,1260)">
+                                    <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                                </g>
+                            </g>
+                            <g id="a40" serif:id="a" transform="matrix(1,0,0,1,0,1680)">
+                                <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                            </g>
+                        </g>
+                        <g id="b9" serif:id="b" transform="matrix(1,0,0,1,247,210)">
+                            <path id="a41" serif:id="a" d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                            <g id="a42" serif:id="a" transform="matrix(1,0,0,1,0,420)">
+                                <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                            </g>
+                            <g id="a43" serif:id="a" transform="matrix(1,0,0,1,0,840)">
+                                <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                            </g>
+                            <g id="a44" serif:id="a" transform="matrix(1,0,0,1,0,1260)">
+                                <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="e5" serif:id="e" transform="matrix(1,0,0,1,2470,0)">
+                        <g id="b10" serif:id="b">
+                            <path id="a45" serif:id="a" d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                            <g id="a46" serif:id="a" transform="matrix(1,0,0,1,0,420)">
+                                <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                            </g>
+                            <g id="a47" serif:id="a" transform="matrix(1,0,0,1,0,840)">
+                                <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                            </g>
+                            <g id="a48" serif:id="a" transform="matrix(1,0,0,1,0,1260)">
+                                <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                            </g>
+                        </g>
+                        <g id="a49" serif:id="a" transform="matrix(1,0,0,1,0,1680)">
+                            <path d="M247,90L317.534,307.082L132.874,172.918L361.127,172.918L176.466,307.082L247,90Z" style="fill:white;fill-rule:nonzero;"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -59,9 +59,19 @@ h2 {
   border-radius: 2%;
 }
 
+/* Span*/
+
 span {
   font-weight: 900;
   font-size: 1.2rem;
+}
+
+.red-highlight {
+  margin-left: 5px;
+  font-size: 0.8rem;
+  vertical-align: super;
+  color: #ff0000;
+  opacity: 0.8;
 }
 
 ul {
@@ -104,9 +114,6 @@ header {
 
 /* Landing */
 #landing {
-  margin: 0;
-  right: 0;
-  left: 0;
   top: 6vh;
   z-index: 100;
   display: block;
@@ -133,16 +140,20 @@ h1 {
 
 #contact-btn,
 .portfolio-btn {
-  position: relative;
-  display: block;
-  width: 40%;
-  height: 10%;
-  left: 30%;
-  top: 70%;
   z-index: 1000;
   color: whitesmoke;
   background-color: #8b575c;
   border: whitesmoke solid 2px;
+  border-radius: 2%;
+}
+
+.portfolio-btn {
+  width: 40%;
+  height: 10%;
+  left: 30%;
+  top: 70%;
+  position: relative;
+  display: block;
   font-size: 2rem;
   font-weight: 700;
 }
@@ -178,8 +189,7 @@ body {
 /* Nav */
 .nav-btns,
 .mobile-nav,
-.close-icon,
-#screen-left {
+.close-icon {
   display: none;
 }
 
@@ -217,9 +227,12 @@ section a {
 
 section p {
   padding: 0px 10px 10px 20px;
-  font-size: 1rem;
+  /* font-size: 1rem; */
 }
 
+section img {
+  margin-block-start: 1em;
+}
 
 .in-preparation {
   display: flex;
@@ -246,17 +259,107 @@ section p {
   border-radius: 2%;
 }
 
-.in-preparation > img{
+.in-preparation > img {
   z-index: 99;
   filter: blur(4px);
   /* background: linear-gradient(0deg, #0c013d88 50%, #ffffff44 100%); */
-  }
+}
 
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(0, 0, 0, 0.8);
+  color: whitesmoke;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
+
+.language-icon {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  width: 2rem;
+}
 /* Intro section */
+#landing {
+}
+
+#self-intro {
+  display: block;
+  background-color: rgb(217, 203, 0, 0.2);
+  border-radius: 5%;
+}
+
+#intro-contents {
+  display: block;
+  margin-top: 10%;
+  padding: 5px 5px 5px 5px;
+}
+
+#language-skills,
+#skill-icons {
+  display: flex;
+}
 
 /* Portfolio section */
 #portfolio h2 {
   margin-left: 2%;
+}
+
+/* Contact */
+
+.contact-form {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-item {
+  margin-block-start: 1em;
+}
+
+.form-item {
+  width: 80%;
+  background-color: whitesmoke;
+}
+
+.form-item::placeholder {
+  color: #616161;
+}
+
+#contact-btn {
+  align-content: center;
+  justify-content: center;
+  width: 60%;
+  max-width: 200px;
+}
+
+.no-mobile {
+  display: none;
 }
 
 /* Footer */
@@ -348,15 +451,10 @@ footer .icon:hover {
 
   /* Landing */
 
-  #landing {
-    top: 6vh;
-  }
-
   /* Body */
   body {
     margin: 0 0 0 0;
   }
-
   .container {
     width: 90%;
     max-width: 1560px;
@@ -395,6 +493,11 @@ footer .icon:hover {
     width: 90%;
   }
 
+  /* Contact */
+  .no-mobile {
+    display: unset;
+  }
+
   /* Footer */
   footer {
     width: 100%;
@@ -404,5 +507,4 @@ footer .icon:hover {
 
 /* UHD screens */
 @media screen and (min-width: 2559px) {
-
 }

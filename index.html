@@ -21,7 +21,7 @@
     <header>
       <nav class="nav-btns">
         <ul>
-          <a href="#introduction"><li>INTRODUCTION</li></a>
+          <a href="#landing"><li>INTRODUCTION</li></a>
           <a href="#portfolio"><li>PORTFOLIO</li></a>
           <a href="#about"><li>ABOUT</li></a>
           <a href="#contact"><li>CONTACT</li></a>
@@ -39,47 +39,52 @@
 
       <nav class="mobile-nav">
         <ul>
-          <a href="#introduction"><li>INTRODUCTION</li></a>
+          <a href="#landing"><li>INTRODUCTION</li></a>
           <a href="#portfolio"><li>PORTFOLIO</li></a>
           <a href="#about"><li>ABOUT</li></a>
           <a href="#contact"><li>CONTACT</li></a>
           <li>LANGUAGES DROP DOWN</li>
         </ul>
       </nav>
-      <div id="landing">
-        <div>
-          <h1>I AM A DESIGNER OF PRETTY WEBSITES - EVENTUALLY</h1>
-        </div>
-        <a href="#contact"><button type="button" class="btn btn-primary" id="contact-btn">Contact Me</button></a>
-      </div>
-      <section id="introduction">
-        <!--left column-->
-        <div id="screen-left">
-          <div>
-            <img src="./images/p1.1.jpg" alt="Portrait - Marian Maschke"/>
-            <p>Placeholder for a self-portrait</p>
-          </div>
-        </div>
-          
-        <!--right column-->
-        <div id="screen-right">
-          <h2>Marian Maschke</h2>
-          <p><span>I AM AN ALLROUND-Designer. </span>I am a self-taught web designer and developer based in Nagoya, Japan. 
-            Additionally, I also do photography, translation, and copy-writing. Checkout my portfolio and skills here.
-            <ul>
-              <li>Python/Django</li>
-              <li>Javascript/NodeJS/React</li>
-              <li>JAVASCRIPT LIBRARIES</li>
-              <li>HTML/CSS/Bootstrap</li>
-              <li>WEBHOSTING</li>
-              <li>Wordpress</li>
-            </ul>
-          </p>
-          <a href="./views/cv.html" class="btn btn-primary portfolio-btn"><i>See full CV</i></a>
-        </div>
-      </section>
     </header>
     <main>
+      <!--Landing-->
+      <h1>Marian Maschke - Hobby Web Developer</h1>
+      <section id="landing" class="container">
+         <div id="introductison">
+          <div id="self-intro">
+            <div id="intro-contents">
+              <p><span>I AM AN ALLROUND-Designer.</span>I am a self-taught web designer and developer based in Nagoya, Japan. 
+                Additionally, I also do photography, translation, and copy-writing. Checkout my portfolio and skills here.
+                <div id="skill-icons">
+                  <ul>
+                    <i>Proficient in:</i><br />
+                    <i class="fab fa-html5 tooltip"><span class="tooltip-text">HTML5</span></i>
+
+                    <i class="fab fa-css3-alt tooltip"><span class="tooltip-text">CSS3</span></i>
+                    <i class="fab fa-js-square tooltip"><span class="tooltip-text">JavaScript ES6</span></i>
+                    <i class="fab fa-react tooltip"><span class="tooltip-text">ReactJS</span></i>
+                    <i class="fab fa-node-js tooltip"><span class="tooltip-text">NodeJS</span></i>
+                    <i class="fab fa-python tooltip"><span class="tooltip-text">Python3</span></i>
+                    <li>Django
+                      Express</li>
+                    <li>MongoDB</li>
+
+                  </ul>
+                </div>
+                <div id="language-skills">
+                  <i>Working languages</i>
+                  <div class="language-icon"><img src="./images/jp.svg" alt="japanese"/></div>
+                  <div class="language-icon"><img src="./images/cn.svg" alt="japanese"/></div>
+                  <div class="language-icon"><img src="./images/de.svg" alt="japanese"/></div>
+                  <div class="language-icon"><img src="./images/usgb.svg" alt="japanese"/></div>
+                </div>
+              </p>
+              <a href="./views/cv.html" class="btn btn-primary portfolio-btn"><i>See full CV</i></a>
+            </div>
+        </div>
+        </div>
+      </section>
       <!--Portfolio-->
       <section id="portfolio" class="container small-img">
         <h2>Portfolio - Web Development & Web Design</h2>
@@ -200,39 +205,37 @@
             <img src="./images/p7.jpg" alt="I make words sound different" />      
           </div>
           <div class="col-12 col-md-6">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere tempora soluta 
-              architecto veniam ullam alias porro maiores reiciendis necessitatibus molestias.
+            <h3>How I got to programming</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci maxime minima 
+              fuga enim quae quia laborum beatae impedit in placeat!
             </p>
             <h3>How I got to Japan</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat ea quam officia
               tempore illo ipsum eum ipsa sapiente, quibusdam sit?
             </p>
-            <h3>How I got to programming</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci maxime minima 
-              fuga enim quae quia laborum beatae impedit in placeat!
-            </p>
-            
-            <a href="">SEE MY TRANSLATION PORTFOLIO</a>
           </div>
         </div>
       </section>
       
       <!--Contact Form-->
       <section id="contact" class="container small-img">
-        <h2>Contact</h2>
+        <h2>Contact Me</h2>
         <div class="row justify-content-md-center no-gutters">
-          <div class="col-12 col-md-6"> 
-            <p><span>Contact Me</span></p>
-            <p>Mail</p>  
-            <p>Python</p>  
-            <p>Area</p>  
-                         
-            <a href="">SEE MY TRANSLATION PORTFOLIO</a>
+          <div class="col-12 col-md-3 no-mobile"> 
+            <p>Name<span class="red-highlight">※</span></p>  
+            <p>Mail<span class="red-highlight">※</span></p>  
+            <p>Topic</p>  
+            <p>Content</p>  
+            <p><span class="red-highlight">※ required</span></p>
           </div>
-          <div class="col-12 col-md-6"> 
-            This will be a form
-            <img src="./images/p5.jpg" class="right-img" alt="Say the hellos" />
-          </div>
+          <form class="col-12 col-md-9 contact-form"> 
+            <input type="text" placeholder="Insert Name" name="cf_name" class="form-item"><br />
+            <input type="text" placeholder="Insert Mail" name="cf_mail" class="form-item"><br />
+            <input type="text" placeholder="Insert Topic" name="cf_topic" class="form-item"><br />
+            <textarea cols="30" rows="10" placeholder="Message" name="cf_message" class="form-item"></textarea><br />
+            <!-- <img src="./images/p5.jpg" class="right-img" alt="Say the hellos" /> -->
+            <input type="submit" value="send" id="contact-btn">
+          </form>
         </div>
       </section>
     </main>
