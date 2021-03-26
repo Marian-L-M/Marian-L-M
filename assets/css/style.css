@@ -93,7 +93,7 @@ header {
   z-index: 100;
   display: block;
   height: 70vh;
-  background-image: url("../../images/p1.1.jpg");
+  /* background-image: url("../../images/p1.1.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
 }
