@@ -94,8 +94,8 @@ header {
   display: block;
   height: 70vh;
   /* background-image: url("../../images/p1.1.jpg"); */
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
 }
 
 h1 {
@@ -220,7 +220,7 @@ body {
 
 /* Section General */
 .container {
-  width: 80%;
+  width: 90%;
 }
 
 section {
@@ -322,63 +322,51 @@ section p {
 
 /* Intro section */
 #self-intro {
-  display: grid;
-  grid-template-columns: 1fr 2fr 2fr 1fr;
-  grid-template-rows: 1fr 3fr 2fr 1fr;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: rgb(92, 65, 93, 0.4);
   border-radius: 5%;
 }
+
 #portrait {
-  grid-column: 1;
-  grid-row-start: 1;
-  grid-row-end: 3;
   position: relative;
   z-index: 100;
   left: 15px;
 }
 
 #portrait img {
+  width: 50%;
   border-radius: 50%;
   border: whitesmoke 5px solid;
 }
 
 #intro-contents {
-  grid-column-start: 2;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  margin-top: 10%;
-  margin-right: 20px;
-  margin-left: 20px;
-  padding: 5px 5px 5px 5px;
   position: relative;
+  margin-top: 10%; /* backed */
+  margin-right: 20px; /* backed */
+  margin-left: 20px; /* backed */
+  padding: 5px 5px 5px 5px;
   z-index: 99;
 }
 
 #skill-list {
-  grid-column: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
 }
 
 #skill-list i {
-  font-size: 3rem;
-  margin-right: 10px;
+  font-size: 3rem; /* backed */
+  margin-right: 10px; /* backed */
 }
 
 #language-skills {
-  grid-column: 4;
-  grid-row-start: 3;
-  grid-row-end: 5;
 }
 
 .language-icon {
   display: inline-block;
   /* margin-top: 1rem;
   margin-right: 1rem; */
-  width: 3rem;
+  width: 3rem; /* backed */
 }
 
 .language-icon img {
@@ -395,18 +383,16 @@ section p {
 }
 
 .portfolio-btn {
-  grid-column: 3;
-  grid-row: 3;
-  width: 50%;
-  min-width: 50px;
+  width: 50%; /* backed */
+  min-width: 50px; /* backed */
   height: auto;
   text-align: center;
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 2rem; /* backed */
+  font-weight: 700; /* backed */
 }
 
 .portfolio-btn i {
-  font-size: 1.5rem;
+  font-size: 1.5rem; /* backed */
   font-family: "Bebas Neue", cursive;
   font-weight: 600;
 }
@@ -550,17 +536,72 @@ footer .icon:hover {
     color: black;
     border: black solid 2px;
   }
+  /* Intro-Section */
+  #self-intro {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 3fr 2fr 1fr;
+  }
 
-  /* Header*/
+  #portrait {
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    left: 15px;
+  }
 
-  /* Landing */
+  #portrait img {
+    width: 100%;
+  }
 
+  #intro-contents {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-top: 10%;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  #skill-list {
+    grid-column: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  #skill-list i {
+    font-size: 3rem;
+    margin-right: 10px;
+  }
+
+  #language-skills {
+    grid-column: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+  }
+
+  .language-icon {
+    width: 3rem;
+  }
+
+  .portfolio-btn {
+    grid-column: 3;
+    grid-row: 3;
+    width: 50%;
+    min-width: 50px;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .portfolio-btn i {
+    font-size: 1.5rem;
+  }
   /* Body */
   body {
     margin: 0 0 0 0;
   }
   .container {
-    width: 90%;
     max-width: 1560px;
   }
 
