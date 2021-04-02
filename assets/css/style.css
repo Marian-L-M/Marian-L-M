@@ -31,13 +31,35 @@ font-family: 'Lobster', cursive; ->  (Regular)
 
 */
 
-/* Mobile First!*/
+/* 
+====================
+1.0 Variables
+====================
+*/
+
+:root {
+  /* colors */
+  --clr-primary: #5c415d;
+  --clr-secondary: #8b575c;
+
+  /* contrasts */
+  --clr-base-white: #f5f5f5;
+
+  /*fonts*/
+  --ff-paragraph: "Big Shoulders Display", cursive;
+}
+
+/* 
+====================
+2.0 Global Styles
+====================
+*/
 
 * {
-  font-family: "Big Shoulders Display", cursive;
+  font-family: var(--ff-paragraph);
   font-weight: 300;
   font-size: 1rem;
-  color: whitesmoke;
+  color: var(--clr-base-white);
 }
 
 html {
@@ -49,8 +71,8 @@ h2 {
   position: relative;
   font-family: "Lobster", cursive;
   font-size: 1.5rem;
-  color: whitesmoke;
-  background-color: #5c415d;
+  color: var(--clr-base-white);
+  background-color: var(--clr-primary);
   margin: 4px 4px 4px 4px;
   padding: 4px 4px 4px 4px;
   z-index: 100;
@@ -84,7 +106,6 @@ header {
   background-color: black;
   top: 0;
   z-index: 0;
-  /* border: 4px groove #8b575c; */
 }
 
 /* Landing */
@@ -93,9 +114,6 @@ header {
   display: block;
   height: 100vh;
   margin-top: 0px;
-  /* background-image: url("../../images/p1.1.jpg"); */
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
 }
 
 h1 {
@@ -105,7 +123,7 @@ h1 {
   font-weight: 900;
   text-align: center;
   color: whitesmoke;
-  background-color: #8b575c;
+  background-color: var(--clr-secondary);
   border-radius: 2%;
   margin-top: 0;
   margin-block-start: 0;
@@ -131,23 +149,6 @@ body {
 
 /* Nav */
 
-.menu-icon {
-  position: fixed;
-  display: flex;
-  top: 2vh;
-  right: 2vh;
-  background-color: #313030;
-  opacity: 70%;
-  padding: 1vw 1.3vw 1vw 1vw;
-  border-radius: 20%;
-  z-index: 2000;
-}
-
-.menu-icon i {
-  font-size: 1.5rem;
-  color: #c7c2c2;
-}
-
 .right-col,
 .left-col {
   background-color: #161616;
@@ -165,25 +166,26 @@ body {
 }
 
 .nav-btns,
-.close-icon {
-  z-index: 200;
+.close-icon i {
+  position: fixed;
+  z-index: 2000;
 }
 
 .mobile-nav {
   display: flex;
   position: fixed;
-  z-index: 100;
+  z-index: 1000;
   height: 98%;
   width: 98%;
   align-items: center;
   justify-content: center;
-  background: #3f3f3f;
   flex-direction: column;
+  background: #3f3f3f;
   padding: 0;
   pointer-events: none;
   opacity: 0;
   transition: all 0.6s;
-  border: olive solid 5px;
+  border: var(--clr-primary) solid 5px;
 }
 
 .mobile-nav.active {
@@ -194,7 +196,7 @@ body {
 }
 
 .mobile-nav li {
-  margin: 16px 8px;
+  margin: 50px 8px;
   list-style: none;
 }
 
@@ -203,9 +205,13 @@ body {
   font-family: "Copperplat", fantasy, serif;
 }
 
-.mobile-nav li a {
-  color: white;
+.mobile-nav a {
   text-decoration: none;
+}
+
+.mobile-nav a li {
+  color: whitesmoke;
+  font-weight: 900;
   font-size: 36px;
   position: relative;
 }
@@ -216,6 +222,42 @@ body {
   position: absolute;
   top: -12px;
   border-top: 1px solid white;
+}
+
+.menu-icon {
+  position: fixed;
+  display: flex;
+  top: 5px;
+  right: 5px;
+  background-color: none;
+  border: #c7c2c2 1px solid;
+  opacity: 70%;
+  padding: 1vw 1.3vw 1vw 1vw;
+  border-radius: 20%;
+  z-index: 2000;
+}
+
+.menu-icon i {
+  font-size: 1.5rem;
+  color: #c7c2c2;
+}
+
+.close-icon {
+  position: fixed;
+  top: 1%;
+  right: 9%;
+  z-index: 2000;
+}
+
+.close-icon i {
+  padding: 3px 3px 3px 3px;
+  background-color: var(--clr-primary);
+  border: var(--clr-base-white) 2px solid;
+  border-radius: 50%;
+}
+
+.close-icon i {
+  font-size: 1.5rem;
 }
 
 /* Section General */
@@ -241,7 +283,7 @@ section:last-child {
 section img {
   width: 100%;
   margin-block-start: 1em;
-  border: #8b575c 2px solid;
+  border: var(--clr-secondary) 2px solid;
 }
 
 section h3,
@@ -377,7 +419,7 @@ section p {
 .portfolio-btn {
   z-index: 101;
   color: whitesmoke;
-  background-color: #8b575c;
+  background-color: var(--clr-secondary);
   border: whitesmoke solid 2px;
   border-radius: 2%;
 }
