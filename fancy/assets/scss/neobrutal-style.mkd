@@ -1,0 +1,13 @@
+### Styling Rules
+1. No infused contrasts (mixing black with accent color to blend in)
+2. Avoid blur on shadow. Sharp shadows like a second rectangle
+3. Thick dark defined outlines
+4. Isometic view for shadows/3d effects -> usually 45deg
+5. Clashing in your face colors. But colors should not be over the top in contrast or exceed 80% saturation
+6. Emulating OS windows ( top bax, min/max/close button)
+7. Fonts with enough whitespace and rather thick
+8. Strong contrasts between sections to regain attention. muted colors/ normal font size -> hard break -> strong colors, huge fonts
+9. Illustrations -> colors that dont work well together e.g. red and blue or red and green (Try Yellow Pink Green and Teal)
+10. Pictures that move independetly on scroll
+11. Merg illustrations with photos
+12. Page needs animation. Would else be quite boring.

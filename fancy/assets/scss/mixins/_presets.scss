@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+// Flex mixins
+@mixin fx-row {
+    display: flex;
+    flex-direction: row;
+}
+@mixin fx-col {
+    display: flex;
+    flex-direction: column;
+}
+@mixin fx-row-rev {
+    display: flex;
+    flex-direction: row-reverse;
+}
+@mixin fx-col-rev {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+@mixin name {
+    
+}
