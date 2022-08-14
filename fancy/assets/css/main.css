@@ -1,3 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700;900&display=swap");
+.font-bbn {
+  font-family: "Bebas Neue", cursive;
+}
 
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 42px;
+  letter-spacing: 0;
+  line-height: 120%;
+  font-family: "Bebas Neue", cursive;
+}
+
+.p-36 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.p-26 {
+  font-size: 18px;
+}
+
+@media screen and (min-width: 500px) {
+  h1 {
+    font-size: 54px;
+  }
+
+  .p-36 {
+    font-size: 28px;
+  }
+
+  .p-26 {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 62px;
+  }
+
+  .p-36 {
+    font-size: 32px;
+  }
+
+  .p-26 {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 83px;
+  }
+
+  .p-36 {
+    font-size: 36px;
+  }
+
+  .p-26 {
+    font-size: 26px;
+  }
+}
+h1, h2, h3, h4, h5, a, p, ul, ol, li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  letter-spacing: 0.06em;
+  line-height: 180%;
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+section {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.fx-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.fx-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.fx-row-rev {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.fx-col-rev {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FFDCA8;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  color: #000000;
+}
+a:hover {
+  opacity: 0.6;
+}
+
+section {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+header .logo-container {
+  height: 100%;
+  margin: 0 0 0 12%;
+  padding: 0 clamp(20px, 4vw, 60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+header .logo-container a {
+  color: #ffffff;
+  line-height: 100%;
+}
+header .card-container {
+  display: none;
+}
+@media screen and (min-width: 1000px) {
+  header .card-container {
+    display: block;
+    height: 100%;
+    margin: 0 6% 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+  }
+  header .card-container li {
+    margin: 0 clamp(10px, 1.5em, 20px);
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  header .hamburger {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

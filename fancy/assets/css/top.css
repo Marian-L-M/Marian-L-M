@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700;900&display=swap");
+.font-bbn {
+  font-family: "Bebas Neue", cursive;
+}
+
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 42px;
+  letter-spacing: 0;
+  line-height: 120%;
+  font-family: "Bebas Neue", cursive;
+}
+
+.p-36 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.p-26 {
+  font-size: 18px;
+}
+
+@media screen and (min-width: 500px) {
+  h1 {
+    font-size: 54px;
+  }
+
+  .p-36 {
+    font-size: 28px;
+  }
+
+  .p-26 {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 62px;
+  }
+
+  .p-36 {
+    font-size: 32px;
+  }
+
+  .p-26 {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 83px;
+  }
+
+  .p-36 {
+    font-size: 36px;
+  }
+
+  .p-26 {
+    font-size: 26px;
+  }
+}
+h1, h2, h3, h4, h5, a, p, ul, ol, li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-landing h1 {
+  margin: clamp(40px, 10vw, 100px) 0 0 12%;
+  max-width: 70%;
+}
+.top-landing .slide-up-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=top.css.map */

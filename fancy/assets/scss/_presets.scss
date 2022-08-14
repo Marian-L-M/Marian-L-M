@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@use "./mixins" as mix;
+@use "./variables" as var;
+
+// Global
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+// Page setup
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    letter-spacing: 0.06em;
+    line-height: 180%;
+}
+
+main {
+    width: 100%;
+
+    margin: 0 auto;
+
+}
+section {
+    width: 100%;
+    max-width: 1920px;
+
+    margin: 0 auto;
+}
+
+// Flex presets
+.fx-row {
+    display: flex;
+    flex-direction: row;
+}
+.fx-col {
+    display: flex;
+    flex-direction: column;
+}
+.fx-row-rev {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.fx-col-rev {
+    display: flex;
+    flex-direction: column-reverse;
+}

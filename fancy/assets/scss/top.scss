@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@use "./mixins" as mix;
+@use "./variables" as var;
+
+// Components
+
+// Section
+.top-landing {
+    h1 {
+        margin: clamp(40px, 10vw, 100px) 0 0 12%;
+        max-width: 70%;
+    }
+    .slide-up-container {
+        // width: 100%;
+        // height: 100vh;
+        @include mix.fx-center-content();
+        .slider-wrapper {
+            
+        }
+    }
+}
