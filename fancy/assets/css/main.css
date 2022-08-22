@@ -84,6 +84,12 @@ ul {
   padding: 0;
 }
 
+img {
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -161,7 +167,7 @@ header {
 }
 header .logo-container {
   height: 100%;
-  margin: 0 0 0 12%;
+  margin: 0 0 0 6%;
   padding: 0 clamp(20px, 4vw, 60px);
   display: flex;
   align-items: center;
