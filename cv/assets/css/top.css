@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700;900&display=swap");
+.font-bbn {
+  font-family: "Bebas Neue", cursive;
+}
+
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: clamp(42px, 8vw, 83px);
+  letter-spacing: 0;
+  line-height: 120%;
+  font-family: "Bebas Neue", cursive;
+}
+
+.p-36 {
+  font-weight: 700;
+  font-size: clamp(24px, 3vw, 36px);
+}
+
+.p-26 {
+  font-size: clamp(18px, 2vw, 26px);
+}
+
+.plr-6 {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+h1, h2, h3, h4, h5, a, p, ul, ol, li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.border-container {
+  width: 98%;
+  margin: 1vw auto;
+  box-sizing: border-box;
+  border: clamp(1px, 0.5vw, 2px) solid #808080;
+  border-radius: clamp(5px, 1vw, 10px);
+}
+
+.cv-wrapper {
+  display: flex;
+}
+
+.skill-item .skill-details {
+  visibility: collapse;
+  height: 0;
+  transition: height 1s ease-in-out;
+}
+.skill-item:hover .skill-details {
+  visibility: visible;
+  height: unset;
+}
+
+.self-intro {
+  box-sizing: border-box;
+  width: 700px;
+  max-width: 33vw;
+  margin: 0;
+  padding: clamp(10px, 2vw, 20px);
+  background-color: #5F021F;
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+  color: #ffffff;
+}
+
+.self-text {
+  box-sizing: border-box;
+  width: max-content;
+  max-width: calc(100% - 500px);
+  padding: 1em;
+}
+
+.side-col,
+.content-col {
+  padding: 1rem;
+}
+
+.side-col {
+  box-sizing: border-box;
+  width: 700px;
+  max-width: 33vw;
+  border-right: clamp(1px, 0.5vw, 2px) solid #808080;
+}
+
+.content-col {
+  width: max-content;
+  max-width: calc(100% - 500px);
+}
+
+/*# sourceMappingURL=top.css.map */

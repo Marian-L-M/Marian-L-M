@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@use "../variables" as var;
+
+// Resets
+
+h1,h2,h3,h4,h5,a,p,ul,ol,li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+// Flex mixins
+@mixin fx-row {
+    display: flex;
+    flex-direction: row;
+}
+@mixin fx-col {
+    display: flex;
+    flex-direction: column;
+}
+@mixin fx-row-rev {
+    display: flex;
+    flex-direction: row-reverse;
+}
+@mixin fx-col-rev {
+    display: flex;
+    flex-direction: column-reverse;
+}
+@mixin fx-center-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin fx-center-content-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+// anchor styling
+@mixin hover-60 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    &:hover {
+        opacity: 0.6;
+    }
+}
+@mixin  strip-a($a-color, $a-hover) {
+    a {
+        color: $a-color;
+        &:hover {
+            color: $a-hover;
+        }
+    }
+}
+
+@mixin  strip-a-black() {
+    a {
+        color: var.$text-black;
+        &:hover {
+            color: var.$text-black-hover;
+        }
+    }
+}
+
+@mixin  strip-a-white() {
+    a {
+        color: var.$text-white;
+        &:hover {
+            color: var.$text-white-hover;
+        }
+    }
+}

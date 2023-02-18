@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@use "./mixins" as mix;
+@use "./variables" as var;
+
+$cv-border: clamp(1px,0.5vw,2px) solid var.$base-grey;
+
+// Global
+.border-container {
+    width: 98%;
+
+    margin: 1vw auto;
+
+    box-sizing: border-box;
+    border: $cv-border;
+    border-radius: clamp(5px,1vw,10px);
+}
+
+
+.cv-wrapper {
+    display: flex;
+}
+
+.skill-item {
+    .skill-details {
+        visibility: collapse;
+        height: 0;
+        transition: height 1s ease-in-out;
+    }
+    &:hover {
+        .skill-details {
+            visibility: visible;
+            height: unset;
+        }
+    }
+}
+
+// Section
+.self-intro {
+    box-sizing: border-box;
+    width: 700px;
+    max-width: 33vw;
+    margin: 0;
+    padding: clamp(10px,2vw, 20px);
+    
+    background-color: var.$c-bordeau;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+    color: var.$text-white;
+}
+
+.self-text {
+    box-sizing: border-box;
+    width: max-content;
+    max-width: calc(100% - 500px);
+
+    padding: 1em;
+}
+
+.side-col,
+.content-col {
+    padding: 1rem;
+}
+
+.side-col {
+    box-sizing: border-box;
+    width: 700px;
+    max-width: 33vw;
+
+    border-right: $cv-border;
+}
+.info-wrapper {
+    .info-item {
+        
+    }
+}
+
+.content-col {
+    width: max-content;
+    max-width: calc(100% - 500px);
+}

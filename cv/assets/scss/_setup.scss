@@ -1,0 +1,29 @@
+@charset "UTF-8";
+@use "./mixins" as mix;
+@use "./variables" as var;
+
+// ========== Global ========== 
+html {
+    scroll-behavior: smooth;
+    font-size: clamp(14px,2vw,18px);
+}
+
+body {
+    background-color: var.$base-white;
+    color: var.$text-black;
+    font-family: var.$base-font;
+}
+
+a {
+    @include mix.hover-60();
+    color: var.$text-black;
+}
+
+section {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+
+// Section

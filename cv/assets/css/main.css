@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700;900&display=swap");
+.font-bbn {
+  font-family: "Bebas Neue", cursive;
+}
+
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: clamp(42px, 8vw, 83px);
+  letter-spacing: 0;
+  line-height: 120%;
+  font-family: "Bebas Neue", cursive;
+}
+
+.p-36 {
+  font-weight: 700;
+  font-size: clamp(24px, 3vw, 36px);
+}
+
+.p-26 {
+  font-size: clamp(18px, 2vw, 26px);
+}
+
+.plr-6 {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+h1, h2, h3, h4, h5, a, p, ul, ol, li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+ul li {
+  margin: 0 0 0 1em;
+}
+
+img {
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  letter-spacing: 0.06em;
+  line-height: 180%;
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+section {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.fx-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.fx-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.fx-row-rev {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.fx-col-rev {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: clamp(14px, 2vw, 18px);
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  color: #000000;
+}
+a:hover {
+  opacity: 0.6;
+}
+
+section {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=main.css.map */
