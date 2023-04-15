@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700;900&family=Permanent+Marker&display=swap");
 .font-bbn {
   font-family: "Bebas Neue", cursive;
 }
@@ -7,11 +7,21 @@
   font-family: "Roboto", sans-serif;
 }
 
-h1 {
-  font-size: clamp(42px, 8vw, 83px);
+.font-hand {
+  font-family: "Permanent Marker", cursive;
+}
+
+h1,
+.h1-like {
+  font-size: clamp(36px, 4vw, 63px);
   letter-spacing: 0;
   line-height: 120%;
   font-family: "Bebas Neue", cursive;
+}
+
+h3,
+.h3-like {
+  font-size: clamp(18px, 2vw, 24px);
 }
 
 .p-36 {
@@ -28,6 +38,36 @@ h1 {
   box-sizing: border-box;
   padding-left: 6%;
   padding-right: 6%;
+}
+
+.mr-a {
+  margin-right: auto;
+}
+
+.ml-a {
+  margin-left: auto;
+}
+
+.mt-a {
+  margin-top: auto;
+}
+
+.mb-a {
+  margin-bottom: auto;
+}
+
+.mxy-a {
+  margin: auto;
+}
+
+.mx-a {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-a {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 h1, h2, h3, h4, h5, a, p, ul, ol, li {
@@ -54,7 +94,6 @@ ul li {
 
 img {
   height: auto;
-  width: 100%;
   max-width: 100%;
 }
 
@@ -107,14 +146,14 @@ html {
 
 body {
   background-color: #ffffff;
-  color: #000000;
+  color: #021919;
   font-family: "Roboto", sans-serif;
 }
 
 a {
   opacity: 1;
   transition: opacity 0.3s ease-in-out;
-  color: #000000;
+  color: #021919;
 }
 a:hover {
   opacity: 0.6;
@@ -124,6 +163,27 @@ section {
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem 0;
+  z-index: 400;
+}
+header > * {
+  color: #ffffff;
+}
+header > * a {
+  color: #ffffff;
+  mix-blend-mode: difference;
+}
+
+.header-item {
+  margin: auto 0.5em;
 }
 
 /*# sourceMappingURL=main.css.map */

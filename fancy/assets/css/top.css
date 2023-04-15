@@ -62,6 +62,13 @@ h1 {
     font-size: 26px;
   }
 }
+.plr-6 {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
 h1, h2, h3, h4, h5, a, p, ul, ol, li {
   margin: 0;
   padding: 0;
@@ -69,15 +76,23 @@ h1, h2, h3, h4, h5, a, p, ul, ol, li {
 
 a {
   text-decoration: none;
+  cursor: pointer;
+}
+
+.cta-text {
+  font-family: "Bebas Neue", cursive;
+  font-size: clamp(24px, 4vw, 48px);
+  font-weight: bolder;
 }
 
 .top-landing {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  margin: clamp(40px, 10vw, 100px) auto;
 }
 .top-landing h1 {
-  margin: clamp(40px, 10vw, 100px) 0 0 6%;
-  width: fit-content;
+  margin: 0 0 0 6%;
   max-width: 70%;
 }
 .top-landing .slide-up-container {
@@ -106,8 +121,21 @@ a {
   animation: text-slide 16s infinite 2s;
   line-height: 120%;
 }
+.top-landing .profile-container {
+  width: clamp(200px, 32vw, 600px);
+  min-width: clamp(200px, 32vw, 600px);
+  margin: 0 6% 0 0;
+}
 .top-landing .profile-container img {
   border-radius: 50%;
+}
+
+.title-cta {
+  margin: auto 0 auto 6%;
+  padding: 0.5em 1em;
+  background-color: #E24BC0;
+  border: 0.1em solid #000000;
+  line-height: 100%;
 }
 
 @keyframes text-slide {

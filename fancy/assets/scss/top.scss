@@ -3,13 +3,19 @@
 @use "./variables" as var;
 
 // Components
-
+.cta-text {
+    font-family: var.$title-font;
+    font-size: clamp(24px,4vw,48px);
+    font-weight: bolder
+}
 // Section
+// Landing
 .top-landing {
     @include mix.fx-row();
+    align-items: center;
+    margin: clamp(40px, 10vw, 100px) auto;
     h1 {
-        margin: clamp(40px, 10vw, 100px) 0 0 6%;
-        width: fit-content;
+        margin: 0 0 0 6%;
         max-width: 70%;
     }
     .slide-up-container {
@@ -39,10 +45,23 @@
         }
     }
     .profile-container {
+        width: clamp(200px,32vw,600px);
+        min-width: clamp(200px,32vw,600px);
+        margin: 0 6% 0 0;
         img {
             border-radius: 50%;
         }
     }
+}
+.title-cta {
+    margin: auto 0 auto 6%;
+    padding: 0.5em 1em;
+
+    background-color: var.$main-pink;
+    border: 0.1em solid var.$text-black;
+
+
+    line-height: 100%;
 }
 
 $scale-factor: -1.2;
