@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@use "../mixins" as mix;
+@use "../variables" as var;
+
+header {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1rem 0;
+    z-index: 400;
+
+    & > * {
+        a {
+            mix-blend-mode: difference;
+        }
+    }
+}
+
+.header-item {
+    margin: auto 0.5em;
+}
