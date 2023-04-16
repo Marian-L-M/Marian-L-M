@@ -1,15 +1,28 @@
 @charset "UTF-8";
 @use "../mixins" as mix;
 @use "../variables" as var;
+@use "./hamburger";
 
 header {
     width: 100%;
-    position: absolute;
+    // position: absolute;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding: 1rem 0;
     z-index: 400;
+    nav {
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+    }
+     ul.nav-btns {
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+        width: 100%;
+     }
 
     & > * {
         a {
