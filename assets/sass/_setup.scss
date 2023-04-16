@@ -1,0 +1,22 @@
+@charset "UTF-8";
+@use "./mixins" as mix;
+@use "./variables" as var;
+
+html {
+    scroll-behavior: smooth;
+    font-size:62.5%; // 10px
+}
+
+body {
+    font-size: clamp(1.4rem,2vw,1.6rem);
+    background-color: var.$base-black;
+    color: var.$base-white;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    &:hover {
+        opacity: 0.8;
+    }
+}
