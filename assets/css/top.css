@@ -1,0 +1,75 @@
+@font-face {
+  font-family: staatliches-reg;
+  src: url(../fonts/Staatliches-Regular.ttf);
+}
+h1,
+.h1-like {
+  font-family: staatliches-reg;
+  font-size: clamp(2.4rem, 5vw, 6rem);
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.t-upper {
+  text-transform: uppercase;
+}
+
+.f-staatliches {
+  font-family: staatliches-reg;
+}
+
+h1, h2, h3, h4, h5, a, p, ul, ol, li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.landing-grid {
+  width: 100%;
+  height: calc(100vh - clamp(60px, 10vw, 100px) - 20px);
+  min-height: 500px;
+  max-height: 1080px;
+  display: grid;
+  grid-template-columns: 10fr 5fr 4fr 1fr;
+  grid-template-rows: 4fr 3fr 3fr;
+  gap: clamp(5px, 6vw, 10px);
+  margin: clamp(5px, 6vw, 10px) auto;
+}
+.landing-grid .top-banner {
+  grid-row: 1/2;
+  grid-column: 1/4;
+}
+.landing-grid .cta {
+  grid-row: 1/2;
+  grid-column: 4/5;
+  writing-mode: vertical-lr;
+}
+.landing-grid .hero {
+  grid-row: 2/4;
+  grid-column: 1/2;
+}
+.landing-grid .card-long {
+  grid-row: 2/3;
+  grid-column: 2/5;
+}
+.landing-grid .cs-1 {
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
+.landing-grid .cs-2 {
+  grid-row: 3/4;
+  grid-column: 3/5;
+}
+
+.top-banner .top-row,
+.top-banner .mid-row,
+.top-banner .bottom-row {
+  display: flex;
+  width: 100%;
+}
+
+/*# sourceMappingURL=top.css.map */

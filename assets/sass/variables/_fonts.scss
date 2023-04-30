@@ -1,0 +1,26 @@
+// Imports
+
+@font-face {
+    font-family: staatliches-reg;
+    src: url(../fonts/Staatliches-Regular.ttf);
+  }
+  
+
+
+
+// Type Settings
+h1,
+.h1-like {
+    font-family: staatliches-reg;
+    font-size: clamp(2.4rem, 5vw,6rem);
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+.t-upper {
+    text-transform: uppercase;
+}
+
+.f-staatliches {
+    font-family: staatliches-reg;
+}

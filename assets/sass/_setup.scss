@@ -8,10 +8,13 @@ html {
 }
 
 body {
+    box-sizing: border-box;
+    padding: 10px;
     font-size: clamp(1.4rem,2vw,1.6rem);
-    background-color: var.$base-black;
+    background-color: #080F0F;
     color: var.$base-white;
 }
+
 
 a {
     color: inherit;
@@ -19,4 +22,10 @@ a {
     &:hover {
         opacity: 0.8;
     }
+}
+
+
+.grey-card {
+    background-color: var.$accent-black;
+    border-radius: 10px;
 }
