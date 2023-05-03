@@ -11,7 +11,7 @@ body {
     box-sizing: border-box;
     padding: 10px;
     font-size: clamp(1.4rem,2vw,1.6rem);
-    background-color: #080F0F;
+    background-color: #01110A;
     color: var.$base-white;
 }
 
@@ -28,4 +28,12 @@ a {
 .grey-card {
     background-color: var.$accent-black;
     border-radius: 10px;
+} 
+
+// Components
+.full-screen {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
 }

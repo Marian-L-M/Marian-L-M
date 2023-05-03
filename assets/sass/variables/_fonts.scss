@@ -12,7 +12,22 @@
 h1,
 .h1-like {
     font-family: staatliches-reg;
-    font-size: clamp(2.4rem, 5vw,6rem);
+    font-size: clamp(4rem, 10vw,10rem);
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    line-height: 100%;
+}
+h2,
+.h2-like {
+    font-family: staatliches-reg;
+    font-size: clamp(2rem, 3.3vw,4rem);
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    line-height: 120%;
+}
+h3,
+.h3-like {
+    font-size: clamp(2rem, 3vw,2.4rem);
     font-weight: bold;
     letter-spacing: 0.1em;
 }

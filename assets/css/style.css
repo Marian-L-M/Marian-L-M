@@ -5,7 +5,24 @@
 h1,
 .h1-like {
   font-family: staatliches-reg;
-  font-size: clamp(2.4rem, 5vw, 6rem);
+  font-size: clamp(4rem, 10vw, 10rem);
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  line-height: 100%;
+}
+
+h2,
+.h2-like {
+  font-family: staatliches-reg;
+  font-size: clamp(2rem, 3.3vw, 4rem);
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  line-height: 120%;
+}
+
+h3,
+.h3-like {
+  font-size: clamp(2rem, 3vw, 2.4rem);
   font-weight: bold;
   letter-spacing: 0.1em;
 }
@@ -26,6 +43,39 @@ h1, h2, h3, h4, h5, a, p, ul, ol, li {
 a {
   text-decoration: none;
   cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: clamp(1.4rem, 2vw, 1.6rem);
+  background-color: #01110A;
+  color: #EFF1F3;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.8;
+}
+
+.grey-card {
+  background-color: #23231A;
+  border-radius: 10px;
+}
+
+.full-screen {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .hamburger-container {
@@ -239,32 +289,6 @@ header ul.nav-btns li:nth-child(4):after {
 
 .header-item {
   margin: auto 0.5em;
-}
-
-html {
-  scroll-behavior: smooth;
-  font-size: 62.5%;
-}
-
-body {
-  box-sizing: border-box;
-  padding: 10px;
-  font-size: clamp(1.4rem, 2vw, 1.6rem);
-  background-color: #080F0F;
-  color: #EFF1F3;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-a:hover {
-  opacity: 0.8;
-}
-
-.grey-card {
-  background-color: #23231A;
-  border-radius: 10px;
 }
 
 body {

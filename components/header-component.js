@@ -8,7 +8,7 @@ class Header extends HTMLElement {
       <header>
       <nav class="nav-menu">
         <ul class="nav-btns">
-        <li><a href="#landing">INTRODUCTION</a></li>
+        <li><a href="#landing">TOP</a></li>
         <li><a href="#portfolio">PORTFOLIO</a></li>
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#contact">CONTACT</a></li>
