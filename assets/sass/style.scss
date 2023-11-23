@@ -1,50 +1,17 @@
 @charset "UTF-8";
 @use "./setup" ;
 @use "./components/header" ;
+@use "./utilities" ;
 
 // Reset
 
 body {
+    padding: 0 0 0 0;
     margin:  0 0 0 0;
 }
-
+ul {
+    list-style-type: none;
+}
 // Global Components
 
 
-// Flex
-.fx-row {
-    display: flex;
-}
-.fx-row-ai {
-    display: flex;
-    align-items: center;
-}
-.fx-row-ji {
-    display: flex;
-    justify-content: center;
-}
-.fx-row-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.fx-col {
-    display: flex;
-    flex-direction: column;
-}
-.fx-col-ai {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.fx-col-jc {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.fx-col-center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}

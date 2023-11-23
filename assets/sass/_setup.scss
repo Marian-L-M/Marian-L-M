@@ -2,6 +2,7 @@
 @use "./mixins" as mix;
 @use "./variables" as var;
 
+// Base settings
 html {
     scroll-behavior: smooth;
     font-size:62.5%; // 10px
@@ -11,8 +12,8 @@ body {
     box-sizing: border-box;
     padding: 10px;
     font-size: clamp(1.4rem,2vw,1.6rem);
-    background-color: #01110A;
-    color: var.$base-white;
+    background-color: #fff;
+    color: var.$base-black;
 }
 
 

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@use "../variables" as var;
+
+// Flex
+.fx-row {
+    display: flex;
+}
+.fx-row-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fx-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.fx-col-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fx-content-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fx-col-to-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media screen and (min-width: var.$mobile-breakpoint) {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}

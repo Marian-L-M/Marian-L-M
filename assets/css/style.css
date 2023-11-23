@@ -54,8 +54,8 @@ body {
   box-sizing: border-box;
   padding: 10px;
   font-size: clamp(1.4rem, 2vw, 1.6rem);
-  background-color: #01110A;
-  color: #EFF1F3;
+  background-color: #fff;
+  color: #252627;
 }
 
 a {
@@ -220,26 +220,37 @@ a:hover {
 }
 
 header {
-  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   height: clamp(60px, 10vw, 100px);
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  padding: 1rem 0;
+  justify-content: space-between;
+  background-color: #EFF1F3;
+  box-sizing: border-box;
+  padding: 1rem clamp(20px, 4vw, 50px) 1rem calc(1.5 * clamp(20px, 4vw, 50px));
   z-index: 400;
-  background-color: #252627;
   border-radius: 10px;
 }
+header .logo-container {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #252627;
+}
 header nav {
-  width: 100%;
+  width: 50%;
   display: flex;
   justify-content: space-between;
 }
-header ul.nav-btns {
+header ul {
   display: flex;
   justify-content: space-evenly;
-  list-style-type: none;
+  font-size: clamp(1.6rem, 2vw, 2rem);
+}
+header ul.nav-btns {
   width: 100%;
 }
 header ul.nav-btns li {
@@ -250,8 +261,6 @@ header ul.nav-btns li {
 }
 header ul.nav-btns li a {
   position: relative;
-  padding: 0.4em 0.5em;
-  font-size: clamp(1.6rem, 2vw, 2rem);
   z-index: 2;
 }
 header ul.nav-btns li:after {
@@ -268,7 +277,7 @@ header ul.nav-btns li:after {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transition: opacity 0.1s ease-in-out, left 0.1s ease-in-out;
+  transition: opacity 0.2s ease-out, left 0.2s ease-out;
 }
 header ul.nav-btns li:hover a {
   opacity: 1;
@@ -277,36 +286,22 @@ header ul.nav-btns li:hover:after {
   opacity: 1;
   left: 0;
 }
-header ul.nav-btns li:nth-child(2):after {
-  background-image: url(../img/common/brush-stroke-2.svg);
-}
-header ul.nav-btns li:nth-child(3):after {
-  background-image: url(../img/common/brush-stroke-3.svg);
-}
-header ul.nav-btns li:nth-child(4):after {
-  background-image: url(../img/common/brush-stroke-4.svg);
+header ul.sns-btns li svg {
+  width: 1em;
+  height: 1em;
 }
 
 .header-item {
   margin: auto 0.5em;
 }
 
-body {
-  margin: 0 0 0 0;
+@media screen and (min-width: 651px) {
+  .hamburger-container {
+    display: none;
+  }
 }
-
 .fx-row {
   display: flex;
-}
-
-.fx-row-ai {
-  display: flex;
-  align-items: center;
-}
-
-.fx-row-ji {
-  display: flex;
-  justify-content: center;
 }
 
 .fx-row-center {
@@ -320,23 +315,38 @@ body {
   flex-direction: column;
 }
 
-.fx-col-ai {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.fx-col-jc {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .fx-col-center {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.fx-content-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+}
+
+.fx-col-to-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 651px) {
+  .fx-col-to-row {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+body {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+ul {
+  list-style-type: none;
 }
 
 /*# sourceMappingURL=style.css.map */
