@@ -43,6 +43,16 @@ a {
     justify-content: center;
 }
 
+@mixin fx-col-to-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media screen and (min-width: var.$mobile-breakpoint) {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+
 // anchor styling
 @mixin hover-60 {
     opacity: 1;

@@ -11,15 +11,19 @@ html {
 body {
     box-sizing: border-box;
     padding: 10px;
-    font-size: clamp(1.4rem,2vw,1.6rem);
+
     background-color: #fff;
     color: var.$base-black;
+    font-size: clamp(1.4rem,2vw,1.6rem);
+    font-family:var.$f-mono;
+    letter-spacing: 0.8em;
 }
 
 
 a {
     color: inherit;
     text-decoration: none;
+    transition: opacity 0.2s ease-in-out;
     &:hover {
         opacity: 0.8;
     }

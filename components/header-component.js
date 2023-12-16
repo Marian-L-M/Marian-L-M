@@ -9,10 +9,9 @@ class Header extends HTMLElement {
       <div class="logo-container" aria-label="return to top"></div>
       <nav class="nav-menu">
         <ul class="nav-btns">
-          <li><a href="#landing">TOP</a></li>
           <li><a href="#portfolio">PORTFOLIO</a></li>
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#contact">CONTACT</a></li>
+          <li><a href="#cv">CV</a></li>
+          <li><a href="#contact">Let's talk!</a></li>
         </ul>
       </nav>
       <div class="hamburger-container" aria-label="open mobile menu">

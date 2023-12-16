@@ -5,7 +5,7 @@
 h1,
 .h1-like {
   font-family: staatliches-reg;
-  font-size: clamp(4rem, 10vw, 10rem);
+  font-size: clamp(4rem, 6vw, 7rem);
   font-weight: bold;
   letter-spacing: 0.1em;
   line-height: 100%;
@@ -33,6 +33,14 @@ h3,
 
 .f-staatliches {
   font-family: staatliches-reg;
+}
+
+.f-sans {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.f-mono {
+  font-family: "Courier New", Courier, monospace;
 }
 
 h1, h2, h3, h4, h5, a, p, ul, ol, li {
@@ -139,7 +147,7 @@ section.portfolio {
   width: 100%;
   height: 800px;
   min-height: 100vh;
-  margin: 0 auto;
+  margin: clamp(120px, 14vw, 200px) auto 0 auto;
 }
 section.portfolio nav.portfolio-nav {
   flex-wrap: wrap;
@@ -250,15 +258,20 @@ section.portfolio nav.portfolio-nav .cas-card {
 section.landing {
   height: 100vh;
   height: 100lvh;
+  max-height: 1080px;
   box-sizing: border-box;
   padding-top: clamp(60px, 10vw, 100px);
 }
 section.landing .content-container {
+  position: relative;
   margin: auto;
   width: 92%;
+  max-width: 1580px;
   height: 90%;
   display: flex;
   background-color: lightblue;
+  border-top-left-radius: 10vw;
+  border-bottom-right-radius: 10vw;
 }
 section.landing .content-container .text-container {
   align-self: center;
@@ -268,20 +281,52 @@ section.landing .content-container .text-container {
 section.landing .content-container .text-container h1, section.landing .content-container .text-container h3 {
   width: 80%;
 }
+section.landing .content-container .text-container h1 {
+  margin-bottom: 0.4em;
+  line-height: 140%;
+}
+section.landing .content-container .text-container h3 {
+  line-height: 160%;
+}
 section.landing .content-container .text-container button.cta {
-  align-self: flex-start;
   margin: 2em 10% 0 10%;
+  padding: 1em 4em;
+  align-self: flex-start;
+  border: unset;
+  background-color: #5F5F7F;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 100%;
 }
 section.landing .content-container .img-container {
-  align-self: end;
+  margin-right: 5%;
   width: 40%;
-  height: 100%;
+  height: 105%;
+  align-self: flex-end;
 }
 section.landing .content-container .img-container img {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  object-position: bottom center;
+  object-position: bottom right;
+}
+
+.portfolio-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 98%;
+  height: 98vh;
+  background-color: #BE5A38;
+  border-radius: clamp(20px, 4vw, 50px);
+  background-color: #EFF1F3;
+}
+@media screen and (min-width: 651px) {
+  .portfolio-card {
+    flex-direction: row;
+    align-items: flex-start;
+  }
 }
 
 /*# sourceMappingURL=top.css.map */

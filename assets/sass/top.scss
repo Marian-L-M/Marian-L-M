@@ -98,7 +98,7 @@ section.portfolio {
     width: 100%;
     height: 800px;
     min-height: 100vh;
-    margin: 0 auto;
+    margin: clamp(120px,14vw,200px) auto 0 auto;
     nav.portfolio-nav {
         flex-wrap: wrap;
         width: 1400px;
@@ -204,14 +204,21 @@ section.portfolio {
 section.landing {
     height: 100vh;
     height: 100lvh;
+    max-height: 1080px;
     box-sizing: border-box;
     padding-top: var.$header-height;
     .content-container {
+        position: relative;
         margin: auto;
         width: 92%;
+        max-width: 1580px;
         height: 90%;
         display: flex;
         background-color: lightblue;
+
+        $border-radius: 10vw;
+        border-top-left-radius: $border-radius;
+        border-bottom-right-radius: $border-radius;
         .text-container {
             align-self: center;
             width: 60%;
@@ -219,21 +226,47 @@ section.landing {
             h1,h3 {
                 width: 80%;
             }
+            h1 {
+                margin-bottom: 0.4em;
+                line-height: 140%;
+            }
+            h3 {
+                line-height: 160%;
+            }
             button.cta {
-                align-self: flex-start;
                 margin: 2em 10% 0 10%;
+                padding: 1em 4em;
+
+                align-self: flex-start;
+                border: unset;
+                background-color: var.$purple-accent-2;
+                color: var.$text-white;
+                font-size: 18px;
+                font-family: var.$f-sans;
+                line-height: 100%;
+
             }
         }
         .img-container {
-            align-self: end;
+            margin-right: 5%;
             width: 40%;
-            height: 100%;
+            height: 105%;
+            align-self: flex-end;
             img {
                 width: 100%;
                 height: 100%;
                 object-fit: contain;
-                object-position: bottom center;
+                object-position: bottom right;
             }
         }
     }
+}
+.portfolio-card {
+    @include mix.fx-col-to-row();
+    width: 98%;
+    height: 98vh;
+    // height: 100lvh;
+    background-color: var.$main-color;
+    border-radius: clamp(20px,4vw,50px);
+    background-color: var.$base-white;
 }

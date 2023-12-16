@@ -81,9 +81,13 @@ header {
         }
         &.sns-btns {
             li {
+                margin-right: 1em;
                 svg {
-                    width: 1em;
-                    height: 1em;
+                    width: 3rem;
+                    height: 3rem;
+                }
+                &:last-child {
+                    margin-right: 0;
                 }
             }
         }

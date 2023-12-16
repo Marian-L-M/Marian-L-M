@@ -1,0 +1,6 @@
+@charset "UTF-8";
+@use "../variables" as var;
+
+.c-primary {
+    color: var.$main-color;
+}

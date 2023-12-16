@@ -5,7 +5,7 @@
 h1,
 .h1-like {
   font-family: staatliches-reg;
-  font-size: clamp(4rem, 10vw, 10rem);
+  font-size: clamp(4rem, 6vw, 7rem);
   font-weight: bold;
   letter-spacing: 0.1em;
   line-height: 100%;
@@ -35,6 +35,14 @@ h3,
   font-family: staatliches-reg;
 }
 
+.f-sans {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.f-mono {
+  font-family: "Courier New", Courier, monospace;
+}
+
 h1, h2, h3, h4, h5, a, p, ul, ol, li {
   margin: 0;
   padding: 0;
@@ -53,14 +61,17 @@ html {
 body {
   box-sizing: border-box;
   padding: 10px;
-  font-size: clamp(1.4rem, 2vw, 1.6rem);
   background-color: #fff;
   color: #252627;
+  font-size: clamp(1.4rem, 2vw, 1.6rem);
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 0.8em;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  transition: opacity 0.2s ease-in-out;
 }
 a:hover {
   opacity: 0.8;
@@ -286,9 +297,15 @@ header ul.nav-btns li:hover:after {
   opacity: 1;
   left: 0;
 }
+header ul.sns-btns li {
+  margin-right: 1em;
+}
 header ul.sns-btns li svg {
-  width: 1em;
-  height: 1em;
+  width: 3rem;
+  height: 3rem;
+}
+header ul.sns-btns li:last-child {
+  margin-right: 0;
 }
 
 .header-item {
@@ -338,6 +355,10 @@ header ul.sns-btns li svg {
     flex-direction: row;
     align-items: flex-start;
   }
+}
+
+.c-primary {
+  color: #BE5A38;
 }
 
 body {
